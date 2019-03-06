@@ -1,11 +1,27 @@
-# HaCsDb
+# CS Hierarchy
 
-- working title: **Hierarchical CS Debrief**, HaCsDb
-- working desc: CS: Theory+Practice^Hierarchy, CS::<T+P>:H
-- repo: https://github.com/mandober/ocd.git
-- date: 2017-2018
+- name: CS Hierarchy
+- desc: Hierarchy of Computing
+- repo: https://github.com/mandober/cs-hierarchy.git
+- date: 2017-
 - stat: wip
-- contributing: the con is on
+
+Hierarchy of computing and (related) science, that is, mostly CS with a touch of math. Math, logic, formal languages, CS, IT, software engineering, etc.
+
+Working form: hierarchical    
+Clustering *topics* into *classes*.     
+Classes: *sections*, *areas*, *domains*.     
+
+
+
+
+
+H:DAST
+* Hierarchy: Domains » Areas » Sections » Topics
+* root: CAS (broad) hierarchy
+* body: Math, Logic, CS (less broad) domains
+* branches: <sections>
+* leaves: <topics>
 
 
 Step#1: mkdesc    
@@ -16,8 +32,10 @@ Theoretical manners in present practical tense.
 Aggregated CS knowledge presented in hierarchical manner.    
 
 Step#2: mkhierarchy    
-Classification:   
-Hierarchy » Domains » Areas » Sections » Topics
+
+Organization starts with *Terms* page that gathers the titles (mainly titles of topics) are gathered.
 
 
-[CS Hierarchy](./hierarchy.md)
+- [Terms](./terms.md)
+- [Topics](./topics.md)
+- [Hierarchy](./hierarchy.md)

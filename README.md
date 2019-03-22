@@ -13,9 +13,6 @@ Clustering *topics* into *classes*.
 Classes: *sections*, *areas*, *domains*.     
 
 
-
-
-
 H:DAST
 * Hierarchy: Domains » Areas » Sections » Topics
 * root: CAS (broad) hierarchy

@@ -49,20 +49,21 @@ Domains:
     * Predicate logic
     * Proof theory
   * Theory of computation
+    - Computability
+    - Halting problem
     * Complexity theory
+      - Space complexity
+      - Time complexity
       * Asymptotic analysis
-        - Θ
-        - Ω
-        - O
-      * Space complexity
-      * Time complexity
-      * Complexity scales
-        - constant scale
-        - logarithmic scale
-        - linear scale
-        - quadratic scale
-        - exponential scale
-    * Computability Theory
+        - Θ notation
+        - Ω notation
+        - O notation
+        * Complexity scales
+          - constant scale
+          - logarithmic scale
+          - linear scale
+          - quadratic scale
+          - exponential scale
     * Automata Theory
       - Finite Automata
       - Context-Free Grammars
@@ -252,6 +253,7 @@ Domains:
         - Edge computing
         - Neural networks
         - Quantum computing
+  
   * Software
     * Software by domain:
       * System software
@@ -349,13 +351,94 @@ Domains:
         - Numerical Methods
         - Optimization
         - Statistics
+  
   * Data
+    * Information
+      * Units of information
+        - Bit, byte, word
+      * Information encoding
+        - ASCII
+        - Unicode
+        - Error checking and correction
     * Data representation
-    * Data structures
+      * Number systems
+        - Natural numbers
+        - Integer numbers
+        - Rational numbers
+        - Irrational numbers
+        - Real numbers
+        - Ordinal numbers
+        - Counting and measurement
+      * Number bases
+        - Binary
+        - Octal
+        - Hexadecimal
+        - base32
+        - base64
+      * Binary
+        - Unsigned binary
+        - Unsigned binary arithmetic
+        - Signed binary using two's complement
+        - Numbers with a fractional part
+        - Rounding errors
+        - Absolute and relative errors
+        - Range and precision
+        - Normalisation of floating point form
+        - Underflow and overflow
+      * Representing media
+        - Analogue and digital
+        - A/D conversion
+        * Graphics
+          - Bitmapped graphics
+          - Vector graphics
+        * Sound
+          - Digital representation of sound
+          - Musical Instrument Digital Interface (MIDI)
+        * Video
+        - Data Compression
+          - Lossy format
+          - Lossless format
+        - Data Encryption
+    * Data structures and algorithms
+      * Abstract data types (ADT)
+      * Data structures
+        * Fields, records and files
+        * Arrays
+          - single-dimensional arrays
+          - multi-dimensional arrays
+        * Vectors
+        * Queues
+        * Stacks
+        * Graphs
+        * Trees
+          - Binary trees
+          - AVL
+          - BW
+        * Hash tables
+        * Dictionaries
+      * Algorithms
+        * Complexity of algorithms
+        * Graph-traversal
+        * Tree-traversal
+        * Reverse Polish – infix transformations
+        * Search algorithms
+          - Linear search
+          - Binary search
+          - Binary search tree (BST)
+        * Sorting algorithms
+          - Bubble sort
+          - Merge sort
+          - Quicksort
+          - Timsort
+        * Optimisation algorithms
+          - Dijkstra's shortest path algorithm
+          - Hill climbing
+
   * Program
     * Program execution
     * Program correctness
     * Program verification
+  
   * Programming Language Theory
     * Formal languages
     * Parsing
@@ -406,7 +489,9 @@ Domains:
       - Assembly language
       - Hardware description language
     * Compiler theory
+  
   * Type Systems
+  
   * **Networks**
     * Networks topology
     * Networks components

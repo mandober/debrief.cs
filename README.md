@@ -2,9 +2,9 @@
 
 Notes about theoretical aspects of computing.
 
-- name: `debrief.cs`
+- repo: `debrief.cs`
+- link: https://github.com/mandober/debrief.cs.git
 - desc: Computer science - theoretical aspects of computing
-- repo: https://github.com/mandober/debrief.cs.git
 - date: 2017-2019
 - type: notes
 
@@ -20,4 +20,3 @@ Notes about theoretical aspects of computing.
 ※ Implementation  ❖ PARADIGMS CONCEPTS
 ※ Concretion      ❖ RUST JS WASM
 ```
-

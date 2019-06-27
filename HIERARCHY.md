@@ -1,11 +1,10 @@
-# SUMMARY
+# CS HIERARCHY
 
-Computer Science
 * Computing
   - History
   - Foundations
 * Computer Hardware
-  * CPU
+  * *CPU*
     * Bitness
       - 32-bit
       - 64-bit
@@ -55,7 +54,7 @@ Computer Science
       * CPU by instruction complexity
         - Complex Instruction Set Computing (CISC)
         - Reduced Instruction Set Computing (RISC)
-  * Memory
+  * *Memory*
     - Memory latency
     - Memory by technology
     - Content-Addressable Memory (CAM)
@@ -66,11 +65,11 @@ Computer Science
         - SDD, HDD
       - Tertiary storage
         - BD, DVD
-  * Buses
+  * *Buses*
     * Address bus
     * Instruction bus
     * Data bus
-  * IO
+  * *IO*
   * Components
     - Motherboard
     - CPU
@@ -91,7 +90,7 @@ Computer Science
     - Computer appliance
     - Business machine
     - Information appliance
-* Computer Architecture
+* Computer architecture
   * Computer architecture designs
     * Program-controlled system
     * Stored-program system
@@ -138,7 +137,7 @@ Computer Science
     * Parallel architectures
     * Distributed architectures
     * Other architectures
-* Computer System
+* Computer system
   * Computation Units
     - bit
     - byte

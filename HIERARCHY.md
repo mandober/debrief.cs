@@ -296,6 +296,44 @@ PART III: DATA
   - entropy
 
 
+PART IV: Theory of Computation
+==============================
+
+## Theory of Computation
+  - Formal Language
+  - Complexity Theory
+  - Automata Theory
+
+## Formal language
+  - symbolic language
+  - Syntax
+  - Semantics
+  - Grammar
+  - BNF
+
+## Automata Theory
+  - DFA
+  - NFA
+
+## Lambda Calculi
+  - Lambda Calculus
+  - Simply Typed Lambda Calculus
+  - System F
+  - Lambda Pi
+  - Lambda Omega
+  - Lambda Omega Pi
+
+## Computability theory
+  - Recursion
+  - Recursive set
+  - Recursively enumerable set
+  - Decision problem
+  - Church–Turing thesis
+  - Computable function
+  - Primitive recursive function
+
+
+
 PART IV: SOFTWARE
 =================
 
@@ -430,7 +468,11 @@ PART VII: PROGRAMMING
   - Reflection
   - Interface
 
-## Programming Language constructs
+
+PART VIII: PROGRAMMING LANGUAGE
+===============================
+
+## PL constructs
   - Aliasing
   - Assignment
   - Binding
@@ -468,10 +510,6 @@ PART VII: PROGRAMMING
     - subroutines
     - functions
 
-
-PART VIII: PROGRAMMING LANGUAGE
-===============================
-
 ## PL classification
   - by abstraction level
     - low
@@ -497,8 +535,7 @@ PART VIII: PROGRAMMING LANGUAGE
     - DSL
     - markup
 
-## Programming Language Theory
-  - Formal language
+## PL theory
   - Compiler theory
   - Parsing
   - Syntax
@@ -511,12 +548,6 @@ PART VIII: PROGRAMMING LANGUAGE
     - Compiler
     - Interpreter
   * Type System
-
-## Formal language
-  - symbolic language
-  - syntax
-  - grammar
-  - semantics
 
 ## Compiler theory
   - Parsing
@@ -566,6 +597,10 @@ PART VIII: PROGRAMMING LANGUAGE
   - Operational
   - Denotational
   - Axiomatic
+
+
+PART IX: TYPE SYSTEM
+====================
 
 ## Type System
   - Data

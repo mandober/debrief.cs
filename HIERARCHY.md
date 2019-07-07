@@ -1,39 +1,24 @@
 # CS: HIERARCHY
 
 
-PART I: COMPUTER
-================
+PART I: COMPUTER SCIENCE
+========================
 
-## cs
-  - theoretical CS
-  - history and foundations
-  - computing
-  - computer systems
-  - Computer Systems Organization
-  - Software and its engineering
-  - Theory of computation
+## CS Foundations
+  - CS Foundations and History
+  - Theoretical Computer Science (TCS)
   - Mathematics of computing
-  - Information systems
-  - Computing methodologies
-  - Applied computing
 
-## computer systems
-  - operating system
-  - embedded system
-  - real-time system
-  - networked system
-  * computer system attributes
-    - reliability
-    - availability
-    - fault-tolerance
-    - maintainability
-    - redundancy
+## Computing
+  * Computing methodology
+    - Serial vs Parallel computing
+    - Sequential vs Concurrent computing
+    - Distributed vs Centralized computing
+  * Computing models
+    - quantum vs classical computing
+    - neural networks
+    - edge computing
 
-## computing
-  - serial, parallel, distributed
-  - edge computing
-  - neural networks
-  - quantum computing
 
 
 PART II: HARDWARE
@@ -172,6 +157,30 @@ PART II: HARDWARE
   - circuits: AND, OR, NOT, NAND, NOR
   - synchronization
   - clock
+
+
+
+## Computer Systems
+  * Information systems
+  * Computer System Attributes
+    - reliability
+    - availability
+    - fault-tolerance
+    - maintainability
+    - redundancy
+  * Computer Systems Organization
+    * Embedded systems
+      - Firmware
+      - Embedded hardware
+      - Embedded software
+    * Real-time systems
+      - Real-time operating systems
+      - Real-time languages
+      - Real-time system specification
+      - Real-time system architecture
+    - operating system
+    - networked system
+
 
 
 PART III: DATA
@@ -349,6 +358,11 @@ PART IV: SOFTWARE
   - programs
   - programming
   - programming languages
+
+
+## Software and its engineering
+
+
 
 PART V: OPERATING SYSTEM
 ========================

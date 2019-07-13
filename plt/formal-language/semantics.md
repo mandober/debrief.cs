@@ -1,5 +1,10 @@
 # Semantics
 
+Denotational semantics
+Operational semantics
+Axiomatic semantics
+
+
 In *programming language theory*, __semantics__ is the field concerned with the rigorous mathematical study of the meaning of programming languages.
 
 It does so by evaluating the meaning of syntactically valid strings defined by a specific programming language, showing the computation involved.

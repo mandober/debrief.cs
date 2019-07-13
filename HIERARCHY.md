@@ -631,8 +631,8 @@ PART IX: TYPE SYSTEM
   - type ascripion
 
 
-PART IX: DATA STRUCTURES
-========================
+PART IX: DATA STRUCTURES AND ALGORITHMS
+=======================================
 
 ## Data structures
   - classification
@@ -653,10 +653,6 @@ PART IX: DATA STRUCTURES
     - Graph
     - Tree
 
-
-PART X: ALGORITHMS
-==================
-
 ## Algorithms
   - Dynamic programming
   - Memoization
@@ -672,3 +668,13 @@ PART X: ALGORITHMS
     - Quicksort
   - Searching
     - BST
+
+
+PART X: AI
+==========
+
+## Artificial Intelligence
+  * Artificial Intelligence
+
+## Machine Learning
+  - Machine Learning

@@ -1,7 +1,8 @@
-# Machine Learning
+# Visual Intro to Machine Learning
 
 http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
 http://www.r2d3.us/visual-intro-to-machine-learning-part-2/
+
 
 In **machine learning** (ML), computers apply *statistical learning techniques* to automatically identify patterns in data. These techniques can be used to make highly accurate predictions.
 

@@ -8,5 +8,3 @@ Machine Learning Theory
 - PAC learning
 - Statistical learning
 - VC theory
-
-

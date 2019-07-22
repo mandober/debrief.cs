@@ -307,11 +307,61 @@ PART III: DATA
 
 PART IV: Theory of Computation
 ==============================
+(here in CS or in MATH?)
 
 ## Theory of Computation
   - Formal Language
   - Complexity Theory
   - Automata Theory
+
+## ToC and Logic in CS
+  - Logic and verification
+  - Proof theory [math]
+  - Modal and temporal logics
+  - Automated reasoning
+  - Constraint and logic programming
+  - Constructive math [math]
+  - Description logics
+  - Equational logic and rewriting
+  - Finite Model Theory
+  - Higher order logic
+  - Linear logic
+  - Programming logic
+  - Abstraction
+  - Verification by model checking
+  - Type theory
+  - Hoare logic
+  - Separation logic
+  
+## Theory and algorithms for application domains
+  * Program semantics
+    - Algebraic semantics
+    - Denotational semantics
+    - Operational semantics
+    - Axiomatic semantics
+    - Action semantics
+    - Categorical semantics
+  * Program reasoning
+    - Invariants
+    - Program specifications
+    - Pre- and post-conditions
+    - Program verification
+    - Program analysis
+    - Assertions
+    - Parsing
+    - Abstraction
+
+
+## Lambda Calculi
+  - Lambda Calculus
+  - Simply Typed Lambda Calculus
+  - System F
+  - Lambda Pi
+  - Lambda Omega
+  - Lambda Omega Pi
+
+
+
 
 ## Formal language
   - symbolic language
@@ -324,15 +374,17 @@ PART IV: Theory of Computation
   - DFA
   - NFA
 
-## Lambda Calculi
-  - Lambda Calculus
-  - Simply Typed Lambda Calculus
-  - System F
-  - Lambda Pi
-  - Lambda Omega
-  - Lambda Omega Pi
+
+## Complexity Theory
+  - Complexity Theory
+  - Asymptotic analysis
+  - Algorithmic time complexity
+  - Algorithmic space complexity
+  - Algorithmic spacetime complexity
+
 
 ## Computability theory
+  - Halting Problem
   - Recursion
   - Recursive set
   - Recursively enumerable set

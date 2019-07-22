@@ -1,8 +1,5 @@
 # Regular Language
 
-https://en.wikipedia.org/wiki/Regular_language
-
-In theoretical computer science and formal language theory: 
 __Regular language__ is a formal language that can be expressed using a *regular expression*, in the strict sense of the latter notion used in theoretical computer science (as opposed to many regular expressions engines provided by modern programming languages, which are augmented with features that allow recognition of languages that cannot be expressed by a classic regular expression). Alternatively, **regular language** can be defined as a language recognized by a *finite automaton*.
 
 The equivalence of regular expressions and finite automata is known as *Kleene's theorem* (after mathematician Stephen Cole Kleene).
@@ -25,12 +22,3 @@ The collection of regular languages over an alphabet Σ is defined recursively:
 
 Lexical structure of a PL is a set of token classes
 The basic regular expressions are the empty string, ε, and a single character/symbol of the language, e.g. 'c' (character 'c').
-
-
-
----
-
-https://en.wikipedia.org/wiki/Regular_expression
-https://en.wikipedia.org/wiki/Kleene_star
-https://en.wikipedia.org/wiki/Alphabet_(formal_languages)
-https://en.wikipedia.org/wiki/Empty_string

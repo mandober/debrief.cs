@@ -4,13 +4,12 @@ https://developers.google.com/machine-learning/glossary/
 
 
 ## Artificial Intelligence (AI)
-A non-human entity that can solve sophisticated tasks, such as translating text, identifing diseases from radiologic images.
+A non-human entity that can solve sophisticated tasks, such as translating text, identifying diseases from radiologic images.
 
 ## Artificial General Intelligence (AGI)
 A non-human entity that demonstrates a broad range of problem solving, creativity and adaptability.
 
 ## Bias
-
 1. (math) Bias, or bias term, is an intercept or offset from an origin.
 
 2. (ethics) Prejudice or favoritism towards someone or something over others. Biases can affect data collection and interpretation, system design, user-system interaction. Forms of this type of bias include: automation bias, confirmation bias, experimenter's bias, group attribution bias, implicit bias, in-group bias, out-group homogeneity bias.

@@ -296,6 +296,17 @@ PART III: DATA
         - UTF-16
         - UTF-32
 
+## Data structures
+  - ADT
+  - DS
+  - Linear DS
+  - Graph
+    - Tree
+  - Complexity
+  - Algorithms
+    - Searching
+    - Sorting
+
 ## Database theory
   - normalization forms
   - concurrency
@@ -305,9 +316,10 @@ PART III: DATA
   - entropy
 
 
+
 PART IV: Theory of Computation
 ==============================
-(here in CS or in MATH?)
+(here? or in math? μή μου τοὺς κύκλους τάραττε!)
 
 ## Theory of Computation
   - Formal Language
@@ -351,7 +363,6 @@ PART IV: Theory of Computation
     - Parsing
     - Abstraction
 
-
 ## Lambda Calculi
   - Lambda Calculus
   - Simply Typed Lambda Calculus
@@ -359,9 +370,6 @@ PART IV: Theory of Computation
   - Lambda Pi
   - Lambda Omega
   - Lambda Omega Pi
-
-
-
 
 ## Formal language
   - symbolic language
@@ -373,7 +381,6 @@ PART IV: Theory of Computation
 ## Automata Theory
   - DFA
   - NFA
-
 
 ## Complexity Theory
   - Complexity Theory
@@ -730,3 +737,13 @@ PART X: AI
 
 ## Machine Learning
   - Machine Learning
+
+
+
+---
+
+Computer Science, CS
+Computer Engineering, CE
+Information Engineering
+Software Development
+Systems Analyst

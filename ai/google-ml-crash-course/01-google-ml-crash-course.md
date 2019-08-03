@@ -1,9 +1,9 @@
 # Google's Machine Learning Crash Course
 
 
-## About the course
 Machine Learning Crash Course with TensorFlow APIs
 https://developers.google.com/machine-learning/crash-course/
+
 Google's fast-paced, practical introduction to machine learning. A self-study guide for aspiring machine learning practitioners. Machine Learning Crash Course features a series of lessons with video lectures, real-world case studies, hands-on practice exercises, interactive visualizations of algorithms in action.
 
 - Problem Framing
@@ -11,6 +11,8 @@ Google's fast-paced, practical introduction to machine learning. A self-study gu
 - Clustering
 - Recommendation
 - Testing And Debugging
+
+
 
 ## 1. Framing
 

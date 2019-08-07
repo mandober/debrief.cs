@@ -1,0 +1,23 @@
+# Database Theory: Terms
+
+- database
+- database management system
+- DBMS
+- SQL
+- T-SQL
+- big data
+- big data technology
+- cloud computing
+- cloud data centers
+- business analytics
+- social networks
+- ranking
+- trust management
+- query over encrypted data
+- database systems
+- relational database systems
+- databases
+- multimedia databases
+- bioinformatics
+- workflow systems
+- web data management

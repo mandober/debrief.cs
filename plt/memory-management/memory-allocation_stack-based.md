@@ -1,5 +1,6 @@
-# Stack-based memory allocation 
+# Stack-based memory allocation
 
+https://en.wikipedia.org/wiki/Stack-based_memory_allocation
 
 Stacks in computing architectures are regions of memory where data is added or removed in a last-in-first-out (LIFO) manner.
 
@@ -10,4 +11,3 @@ Because the data is added and removed in a last-in-first-out manner, stack-based
 A thread's assigned stack size can be as small as only a few bytes on some small CPUs. Allocating more memory on the stack than is available can result in a crash due to stack overflow.
 
 Some processor families, such as the x86, have special instructions for manipulating the stack of the currently executing thread. Other processor families, including PowerPC and MIPS, do not have explicit stack support, but instead rely on convention and delegate stack management to the operating system's application binary interface (ABI).
-

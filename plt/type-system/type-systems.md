@@ -1,6 +1,6 @@
 # Type systems
 
-At the lowest level, **data** is just a stream of bits without inherent structure, open to arbitrary interpretation. For example, in an unconstrained access to data, a bit pattern representing an integer can be reinterpreted as it were representing a character.
+At the lowest level, **data** is just a stream of bits without inherent structure, open to arbitrary interpretation. In an unconstrained access to data, a bit pattern representing an integer can be reinterpreted as it were representing a character.
 
 **Data typing** is classification of data into data types, which define the ways the data is intended to be used. A type defines the meaning of the data and the operations that can be taken on such data. It may also define the way the data of that type should be stored.
 
@@ -25,4 +25,3 @@ In **dynamically typed** languages, _values carry the type_, not variables. A va
 In order to perform type checking, a (static) type system requires that all values (expressions) were designated with an appropriate type. The process of setting a type may be dynamic (performed by compiler or interpreter), or static (done manually by the programmer), or, to a different extent, somewhere in between. **Type annotation** is an explicit identification of the data type by placing the type identifiers directly on values in the source code. Type identifier directly refers to a named data type, with the same name as the identifier, but it can also refer to a type alias.
 
 In contrast to manual type annotation, **type inference** is identification of data types entirely performed by the compiler, where the type of value is deduced from the context at compile-time. The ability of language (i.e. its compiler) to infer types makes programming easier, allowing the programmer to omit type annotations while still enjoying the benefits of type checking.
-

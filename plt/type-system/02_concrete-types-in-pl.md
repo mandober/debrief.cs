@@ -5,10 +5,10 @@ A type in Pascal defines a variable in such a way that it defines a range of val
 
 The predefined types are:
 
-Data type	Type of values which the variable is capable of storing
-integer	integer (whole) numbers
-real	floating-point numbers
-boolean	the values True or False
-char	a single character from an ordered character set
-string	a sequence or "string" of characters
-set	equivalent to an array of boolean values
+Data type: Type of values which the variable is capable of storing
+integer: integer (whole) numbers
+real: floating-point numbers
+boolean: the values True or False
+char: a single character from an ordered character set
+string: a sequence or "string" of characters
+set: equivalent to an array of boolean values

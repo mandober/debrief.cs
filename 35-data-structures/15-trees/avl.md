@@ -19,5 +19,4 @@ If we use sorted array to implement Table ADT, we can improve the Search(v) perf
 - Insert(v) now runs in O(N) as we need to implement an insertion-sort like strategy to make the array remains sorted,
 - Remove(v) runs in O(N) because even if Search(v) runs in O(log N), we still need to close the gap after deletion — which is in O(N).
 
-The goal is to impove basic Table ADT operations (Search, Insert, Remove, etc.) so they run in O(log N) time by exploring BST and balanced BST (AVL Tree) data structure.
-
+The goal is to improve basic Table ADT operations (Search, Insert, Remove, etc.) so they run in O(log N) time by exploring BST and balanced BST (AVL Tree) data structure.

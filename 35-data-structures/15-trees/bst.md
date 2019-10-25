@@ -1,6 +1,6 @@
 # Binary Search Tree
 
-- DS type: tree
+
 - invented: 1960, P.F. Windley, A.D. Booth, A.J.T. Colin, T.N. Hibbard
 - max nodes per level: `2^h`
 - max nodes in tree: `2^(h+1) - 1`
@@ -26,6 +26,7 @@ Delete | O(log n) | O(n)
 
 
 ## BST
+
 A binary search tree (BST) is a rooted binary tree, whose internal nodes each store a key (and optionally, an associated value) and each have two distinguished sub-trees, commonly denoted left and right. The tree additionally satisfies the binary search property, which states that the key in each node must be greater than (or equal to) any key stored in the left sub-tree, and less than (or equal to) any key stored in the right sub-tree. The leaves do not contain keys and they are indistinguishable from one another.
 
 - The shape of the binary search tree depends entirely on the order of insertions and deletions, and can become degenerate.

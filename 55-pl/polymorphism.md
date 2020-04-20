@@ -1,0 +1,1 @@
+# Polymorphismhttps://en.wikipedia.org/wiki/Operator_overloading* Polymorphism  * Ad hoc polymorphism    - Function overloading    - Operator overloading  * Parametric polymorphism    - Generic function    - Generic programming  * Subtyping    - Virtual function    - Single and dynamic dispatch    - Double dispatch    - Multiple dispatch

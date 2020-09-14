@@ -1,36 +1,53 @@
-# CS: HIERARCHY
-
-- Foundations
-- Hardware
-- Software
+# HIERARCHY of Computer Science
 
 
 ## CS Foundations
-  - CS Foundations
-  - CS History
+  - Computer Science (CS)
+  - History of Computer Science
+  - Foundations of Computer Science
   - Theoretical Computer Science (TCS)
   - Mathematics of computing
-
----
-
+  - Mathematics in Computer Science
 
 ## Hardware
-  * Main components
+  - computer
+  * Computer aspects
+    * Logical aspect
+      - sequential logic
+      - circuits: AND, OR, NOT, NAND, NOR
+    * Physical aspects
+      - transistors
+      - clocks
+      - synchronization
+      - pulses
+  - history of computers
+  * Main computer components
     - CPU
-    - Memory
     - Buses
+    - Memory
     - IO
-  * Other components
-    - Motherboard, GPU, PSU
-    - Peripherals: Keyboard
+    - Other components
+      - Motherboard
+      - GPU
+      - PSU
+      - Peripherals
+        - Keyboard
+        - Mouse
   * Hardware/Software components
     - BIOS
     - Loader
     - Firmware
     - Driver
     - Booting process
+      - POST
+      - partition
+      - MBR
+      - GPT
+  * Computer architecture
+  * Computer systems by (hardware) aspect
 
-## CPU
+
+### CPU
   * CPU microarchitecture
     - branching
     - hyperthreading
@@ -73,7 +90,7 @@
         - Cache block size
         - Cache expulsion algorithms
 
-## Memory
+### Memory
   - Memory technology
     - RAM, ROM, DRAM, SRAM
     - Content-Addressable Memory (CAM)
@@ -95,12 +112,12 @@
     - Registers
     - Word
 
-## Buses
+### Buses
   - Address bus
   - Instruction bus
   - Data bus
 
-## Computer architecture
+### Computer architecture
   * CA types
     * Serial CA
     * Parallel CA
@@ -133,43 +150,35 @@
       - Bitness
       - Endianness
 
-## (Logical aspects)
-  - Transistors
-  - sequential logic
-  - circuits: AND, OR, NOT, NAND, NOR
-  - synchronization
-  - clock
-
-## (Computer Systems)
-  * Information systems
-  * Computer System Attributes
-    - reliability
+### Computer systems by (hardware) aspect
+  * aspect: purpose
+    - Information systems
+    - Experts systems
+    - Decision systems
+  * aspect: attributes of computer system
     - availability
+    - reliability
     - fault-tolerance
     - maintainability
     - redundancy
-  * Computer Systems Organization
-    * Embedded systems
-      - Firmware
-      - Embedded hardware
-      - Embedded software
-    * Real-time systems
-      - Real-time operating systems
-      - Real-time languages
-      - Real-time system specification
-      - Real-time system architecture
+  * aspect: organization of computer systems
+    - Embedded systems
+    - Firmware
+    - Real-time systems
+      - Real-time operating systems, OS
+      - Real-time programming languages, PL
+      - Real-time system specification, Specs
+      - Real-time system architecture, Arch
     - operating system
     - networked system
-  *  Computing
-    * Computing methodology
-      - Serial vs Parallel computing
-      - Sequential vs Concurrent computing
-      - Distributed vs Centralized computing
+    * methodology of computing
+      - serial vs parallel computing
+      - sequential vs concurrent computing
+      - distributed vs centralized computing
     * Computing models
-    - quantum vs classical computing
-    - neural networks
-    - edge computing
-
+      - quantum vs classical computing
+      - neural networks
+      - edge computing
 
 ---
 
@@ -282,7 +291,7 @@
     - Algorithmic time complexity
     - Algorithmic space complexity
     - Algorithmic spacetime complexity
-  * Data structures
+  * Data structures and algorithms
     - ADT
     - DS
     - Linear DS
@@ -328,6 +337,7 @@
       - Quicksort
     - Searching
       - BST
+
 
 ## (Theory of Computation)
   - Formal Language

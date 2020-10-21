@@ -111,5 +111,3 @@ Any time you move away from equaly likely outcomes, or introduces predictability
 When entropy of an information source declines, we can pose fewer questions to get the outcome.
 
 The **bit** is a measure of information (or a measure of surprise).
-
-

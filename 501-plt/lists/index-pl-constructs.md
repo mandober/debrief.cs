@@ -1,4 +1,4 @@
-# Programming Language Constructs: TERMS
+# Programming Language Constructs
 
 Access modifiers
 Advice
@@ -7,7 +7,7 @@ Append
 Array slicing
 Assembly
 Autoload
-Barton–Nackman trick
+Barton-Nackman trick
 Brace notation
 Business object
 Class

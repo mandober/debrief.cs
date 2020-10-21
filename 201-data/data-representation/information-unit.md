@@ -1,5 +1,7 @@
 # Units of Information
 
+https://en.wikipedia.org/wiki/Nat_(unit)
+
 **Unit of information** is the capacity of a data storage system (or communication channel), used to measure the capacities of other systems.
 
 **Bit**, the funamental unit of information, is the capacity of a system that has only 2 states.
@@ -84,5 +86,3 @@ Computers usually manipulate bits in groups of a fixed size, conventionally call
 https://www.wikiwand.com/en/Bit
 https://www.wikiwand.com/en/Word_(computer_architecture)
 https://en.wikibooks.org/wiki/C%2B%2B_Programming/Programming_Languages/C%2B%2B/Code/Statements/Variables
-
-

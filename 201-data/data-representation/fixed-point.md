@@ -4,7 +4,7 @@ https://en.wikipedia.org/wiki/Fixed-point_arithmetic
 
 In fixed-point systems, the position of radix point in the sequence of digits is fixed.
 
-So a fixed-point scheme might be to use a sequence of 8 decimal digits with the decimal point in the middle, whereby "00012345" would represent 0001.2345.
+A fixed-point scheme might be to use a sequence of 8 decimal digits with the decimal point in the middle, whereby "00012345" would represent 0001.2345.
 
 A fixed-point number representation is a real data type for a number that has a fixed number of digits after (and sometimes also before) the radix point. Fixed-point number representation can be compared to the more complicated (and more computationally demanding) floating-point number representation.
 

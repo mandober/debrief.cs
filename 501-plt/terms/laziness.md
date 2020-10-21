@@ -3,7 +3,7 @@
 Understand laziness with examples in Scala, JavaScript, Swift and Racket
 http://matt.might.net/articles/implementing-laziness/
 
-Most languages are strict languages: they compute the value of an expression immediately. Some languages like Haskell are lazy: every expression’s evaluation waits for its (first) use. Other languages (like Scala) are strict by default, but lazy if explicitly specified for given variables or parameters.
+Most languages are strict languages: they compute the value of an expression immediately. Some languages like Haskell are lazy: every expression's evaluation waits for its (first) use. Other languages (like Scala) are strict by default, but lazy if explicitly specified for given variables or parameters.
 
 ```scala
 val x = { print ("foo") ; 10 }
@@ -107,12 +107,3 @@ In JS, this function behaves identically to `exp` (in the absence of side effect
 Eta-expansion plays a key role in the derivation of a Y combinator that works in strict languages like JS.
 
 ## Lazy parameters
-
-
-
-
-
-
-
-
-

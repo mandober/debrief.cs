@@ -1,5 +1,8 @@
 ## Alignment
 
+https://en.wikipedia.org/wiki/Data_structure_alignment
+
+
 **Data structure alignment** is the way data is arranged in the main memory and it encompasses 3 separate, but related issues:
 1. Data alignment
 2. Data structure padding
@@ -48,6 +51,6 @@ For example, the address `0x0001103F` modulo 4 is 3; that address is said to be 
 
 --
 
-https://www.wikiwand.com/en/Data_structure_alignment
+
 https://docs.microsoft.com/en-us/cpp/cpp/alignment-cpp-declarations
 https://docs.microsoft.com/en-us/cpp/build/examples-of-structure-alignment

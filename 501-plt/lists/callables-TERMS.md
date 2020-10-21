@@ -1,9 +1,6 @@
 # Callables
 
-- [Introduction](./01-intro.md)
-
-
-
+# Programming Language Concepts: Callables
 
 - Components/Elements
   - head, header
@@ -15,14 +12,12 @@
     - Actual parameter
   - Argument
 
-
 - Evaluation strategies
   - Eager evaluation
   - Lazy evaluation
   - Partial evaluation
   - Remote evaluation
   - Short-circuit evaluation
-
 
 - Calling conventions/Evaluation strategies
   - 1. Strict evaluation
@@ -98,9 +93,7 @@ Va list
 Variadic function
 Wrapper function
 
----
-# Programming Language Concepts: Functions
-
+## Programming Language Concepts: Functions
 
 * Function
   - functions in math
@@ -110,11 +103,8 @@ Wrapper function
     - procedure: optional input and output
     - function (input and output requirements)
 
-
 Purity
 - side-effects
-
-
 
   - Function mechanics
     - call stack
@@ -184,9 +174,6 @@ Purity
     - Python
     - VBA
 
----
-# Programming Language Concepts: Functions
-
 
 Subroutine
 https://en.wikipedia.org/wiki/Subroutine
@@ -202,8 +189,6 @@ https://en.wikipedia.org/wiki/Evaluation_strategy
 https://en.wikipedia.org/wiki/Category:Evaluation_strategy
 
 
-
-
 Evaluation strategies
 Eager evaluation
 Lazy evaluation
@@ -214,7 +199,6 @@ Short-circuit evaluation
 Anonymous function
 Closure
 Delegate
-
 
 Aggregate function
 Binary-safe

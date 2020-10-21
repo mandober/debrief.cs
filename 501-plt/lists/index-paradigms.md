@@ -1,6 +1,5 @@
-# PL › TOPICS
+# Programming paradigms
 
-## Programming paradigms
   - Action
   - Agent-oriented
   - Array-oriented

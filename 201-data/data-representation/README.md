@@ -1,88 +1,61 @@
 # Data Representation
 
+* Information theory
+  - [Information theory](./information-theory.md)
+  + [Information](./information.md)
+  - [Entropy](./entropy.md)
+  - [Units of information](./units-of-information.md)
+    - [Binary prefix](./binary-prefix.md)
+    - [Bit](./bit.md)
+    - [Byte](./byte.md)
+    - [Word](./word.md)
 
-Data Representation
-Representation of the machine-dependent data types. 
-Representation of the fundamental machine-types. 
-Representation of the most basic, atomic, types:
-- numbers
-- text (char, string)
-- intrinsic types (reference, pointer, address)
+* Data representation
+  - [Data](./data.md)
+  - [Data representation](./data-representation.md)
+  - Representing machine types
+    - Machine-dependent integers
+    - Machine-dependent pointer size
+    * Number repr
+      * Integer repr
+        - One's complement
+        - Two's complement
+        - Sign and magnitude
+        - Positive integers
+        - Negative integers
+      * Real number repr
+        - Fixed-point
+        * Floating-point
+          - Precision
+          - Significant
+          - Base
+          - Mantissa
+          - Exponent
+    * Intrinsic types
+      - Pointer
+      - Reference
+    * Text repr:
+      - Characters
+      * Strings
+        - null-terminating
+        - as objects
+        - static strings
+        - reference strings
+      - Unicode
 
-
-data unit ~ data type ~ data structure
-
-Levels of abstraction:
-- Physical level
-  - voltage, electric current, flip-flops
-  - magnetic field
-  - optical reflection
-- Machine level:
-  - atomic: bit, 0|1
-  - grouped: bitstream, 1010101010101111011100000101000110
-    bit stream, string of bits, bit pattern, seuence of bits
-- organizational levels:
-    - bit, 1 b
-    - nibble, 4 b
-    - byte, octet, 8 b = 1 B
-
-
-General data
-- About data
-- Data units
-Numbers
-Representing numbers
-
-
-Number repr:
-* Integers
-  - One's complement
-  - Two's complement
-  - Sign and magnitude
-  - Positive integers
-  - Negative integers
-* Reals
-  - Fixed-point
-  - Floating-point
-  - Precision
-  - Significant
-  - base
-  - mantissa
-  - exponent
-* Number systems
-- radix (base)
-- binary
-- octal
-- decimal
-- hexadecimal
-
-Pointer-like types:
-- references
-- pointers
-- machine dependent integers
-- machine dependent pointer size
-
-Text repr:
-- Characters
-- Strings
-  - null-terminating
-  - as objects
-  - static strings
-  - reference strings
-- Unicode
-
-Bits
-- bit
-- binary digit
-- octet
+* Levels of abstraction
+  * Physical level
+    - voltage, electric current, flip-flops
+    - magnetic field
+    - optical reflection
+  * Machine level
+    - atomic: bit
+    - grouped: bit stream/string, bit pattern
+  * Organizational levels
+    - bit, nibble, octet
 
 
-
-
-## Extras
+## References
 
 Interesting Facts about Programming
 https://www.geeksforgeeks.org/number-theory-interesting-facts-and-algorithms/
-- swap 2 values
-- quick divisors
-- bit shifting patterns

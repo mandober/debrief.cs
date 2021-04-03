@@ -1,3 +1,0 @@
-# LOG
-
-[Subtyping](./subtyping.md)

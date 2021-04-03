@@ -1,16 +1,5 @@
 # Declaration
 
-<!-- TOC -->
-
-- [Keywords](#keywords)
-- [Name](#name)
-- [Name binding](#name-binding)
-- [Declaration](#declaration)
-- [Definition](#definition)
-
-<!-- /TOC -->
-
-
 - identifier
 - name
 - declaration
@@ -48,7 +37,7 @@ In most languages, some character sequences have the lexical form of an identifi
 
 For example, `if` is frequently a keyword for an `if` clause, but lexically is of the same form as `foo` i.e. just a sequence of letters.
 
-This overlap can be handled in various ways: these may be forbidden from being identifiers – which simplifies tokenization and parsing – in which case they are reserved words; they may both be allowed but distinguished in other ways, such as via stropping; or keyword sequences may be allowed as identifiers and which sense is determined from context, which requires a context-sensitive lexer.
+This overlap can be handled in various ways: these may be forbidden from being identifiers - which simplifies tokenization and parsing - in which case they are reserved words; they may both be allowed but distinguished in other ways, such as via stropping; or keyword sequences may be allowed as identifiers and which sense is determined from context, which requires a context-sensitive lexer.
 
 Non-keywords may also be reserved words (forbidden as identifiers), particularly for forward compatibility, in case a word may become a keyword in future.
 
@@ -73,7 +62,7 @@ A name, usually an identifier, is a character string used to represent something
 
 
 ## Name binding 
-In programming languages, name binding is the association of entities (data and/or code) with identifiers.[1] An identifier bound to an object is said to reference that object. Machine languages have no built-in notion of identifiers, but name-object bindings as a service and notation for the programmer is implemented by programming languages. Binding is intimately connected with scoping, as scope determines which names bind to which objects – at which locations in the program code (lexically) and in which one of the possible execution paths (temporally).
+In programming languages, name binding is the association of entities (data and/or code) with identifiers.[1] An identifier bound to an object is said to reference that object. Machine languages have no built-in notion of identifiers, but name-object bindings as a service and notation for the programmer is implemented by programming languages. Binding is intimately connected with scoping, as scope determines which names bind to which objects - at which locations in the program code (lexically) and in which one of the possible execution paths (temporally).
 
 Use of an identifier id in a context that establishes a binding for id is called a binding (or defining) occurrence. In all other occurrences (e.g., in expressions, assignments, and subprogram calls), an identifier stands for what it is bound to; such occurrences are called applied occurrences.
 
@@ -134,12 +123,3 @@ A declaration is used to announce the existence of the entity to the compiler; t
 Declaration is frequently contrasted with _definition_, but meaning and usage varies significantly between languages. A basic dichotomy is whether a declaration contains a definition or not. For example, when a declaration of a variable also specifies its value it is a definition of variable; whether a function declaration also specifies its body (function definition) or only its type signature (function declaration).
 
 Not all languages make this distinction: in many languages declarations always include a definition, and may be referred to as either "declarations" or "definitions". However, this distinction is clear in languages that require declaration before use (forward declaration), and in languages where interface and implementation are separated: the interface contains declarations, the implementation contains definitions.
-
-
-## Definition
-
-Declaration alone doesn't allocate any resources, but a declaration followed by initialization may (e.g. defining an empty vector won't cause any allocation). Such a construct is called definition. For example, when a declaration of a variable also specifies its value it is a variable definition; a function declaration only specifies its signature (input types, output type, visibility modifier, ABI, extern and safety modifiers), but a function definition additionally specifies its body.
-
-Not all languages make distinction between declaration and definition: in many languages declarations always include a definition, and may be referred to as either "declarations" or "definitions". However, this distinction is clear in languages where interface and implementation are separated: the interface contains declarations, the implementation contains definitions.
-
-In fact, in Rust, only variables and functions have both, declaration and definition; all the other entities have only definition; moreover, only a function used inside a trait definition can avoid specifying its body.

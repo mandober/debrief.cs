@@ -1,5 +1,10 @@
-# The stack
+# Stack
 
+
+
+## The Call stack
+
+https://en.wikipedia.org/wiki/Call_stack
 
 The entire physical memory is available to the CPU as a linear arrray of byte-sized cells, each with a unique numeric address. The MMU in CPU aids in overlaying the virtual memory system over the physical memory. A consequence of this is that each running program thinks it is the only one running and that it has all memory at its disposal. In reality, the CPU serves blocks, or the so-called pages, of virtual memory to programs, some backed up by the primary memory and some mapped to a secondary storage, according to the "you snooze you loose" rule.
 
@@ -15,7 +20,7 @@ The stack is a part of memory available to a program at runtime.
 The stack is very fast, and is where memory is allocated in Rust by default.
 But the allocation is local to a function call, and is limited in size.
 
-The heap, on the other hand, is slower, and is explicitly allocated by your program. But it’s effectively unlimited in size, and is globally accessible.
+The heap, on the other hand, is slower, and is explicitly allocated by your program. But it's effectively unlimited in size, and is globally accessible.
 
 This meaning of heap, which allocates arbitrary-sized blocks of memory in arbitrary order, is quite different from the heap data structure.
 
@@ -24,7 +29,7 @@ Rust stack allocates by default, which means that basic values go on the stack.
 When a function gets called, some memory gets allocated for all of its local variables and some other information. This is called a *stack frame*. When the function exits, its stack frame gets deallocated. Allocation and deallocation happens automatically.
 
 Stack allocation is very fast. Since we know all the local variables we have ahead of time, we can grab the memory all at once. And since we'll throw them all away at the same time as well, we can get rid of it very fast too. The downside is that we can't keep values around if we need them for longer than a single function. 
----
+
 
 ## Stack
 
@@ -71,11 +76,11 @@ The heap is less organized: when we put data on the heap, we ask for some amount
 Pushing values onto the stack is not considered allocating. Because the pointer is a known, fixed size, we can store the pointer on the stack, but when we want the actual data, we have to follow the pointer.
 
 Contemporary processors are faster if they jump around less in memory. 
-A processor can do its job better if it works on data that’s close to other data rather than farther away. Allocating a large amount of space on the heap can also take time.
+A processor can do its job better if it works on data that's close to other data rather than farther away. Allocating a large amount of space on the heap can also take time.
 
-When our code calls a function, the values passed into the function (including, potentially, pointers to data on the heap) and the function’s local variables get pushed onto the stack. When the function is over, those values get popped off the stack.
+When our code calls a function, the values passed into the function (including, potentially, pointers to data on the heap) and the function's local variables get pushed onto the stack. When the function is over, those values get popped off the stack.
 
-Keeping track of what parts of code are using what data on the heap, minimizing the amount of duplicate data on the heap, and cleaning up unused data on the heap so we don’t run out of space are all problems that ownership addresses.
+Keeping track of what parts of code are using what data on the heap, minimizing the amount of duplicate data on the heap, and cleaning up unused data on the heap so we don't run out of space are all problems that ownership addresses.
 
 
 # Stack-based memory allocation

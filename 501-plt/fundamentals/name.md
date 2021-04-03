@@ -1,19 +1,18 @@
 # Name
 
-What's a name and why it's hard to suppress a poetry outburst it causes? 
-
-Variable
-Identifier
-Name of variable
+- name
+- label
+- identifier
+- restricted alphanumeric name
+- restricted symbolic name
+- reserved words, keywords
+- names for namespaces, modules, vars, functions, classes, objects
 
 
 The basic task in iterative PL is storing a value.
 
 To accomplish this task we need to choose the type of storage, which is usually the main memory. To use the storage space it provides we have to know the protocol: the entire main memory is presented to consumers as an array of memory blocks, where each memory block has an index and it is capable of storing 1 byte of data.
 
-
-
- Then we need a way 
 
 
 The storage that will hold this value is usually the main memory,

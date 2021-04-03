@@ -1,5 +1,52 @@
 # Sorting
 
+https://en.wikipedia.org/wiki/Sorting_algorithm
+
+
+Properties of (sorting) algorithms:
+- time and space complexity bounds
+- category: sorting, optimizing, etc.
+- sorting type: comparison sorting vs non-comparative sorting
+- strategy: divide and conquer, dynamic programming, etc.
+- online vs offline
+- hybrid vs non-hybrid 
+- stable vs unstable
+- working data structure: array, list, tree, etc.
+- adaptive vs non-adaptive
+- as-processed vs all-at-once output
+
+
+
+## Timsort
+
+https://en.wikipedia.org/wiki/Timsort
+
+- class: sorting algorithm
+- subclass: comparison sorting, hybrid
+- stability: stable
+- data structure: array
+- Worst-case performance        : O(n log n)
+- Best-case performance         : O(n)
+- Average performance           : O(n log n)
+- Worst-case space complexity   : O(n)
+
+
+## Library sort
+
+https://en.wikipedia.org/wiki/Library_sort
+
+- class: sorting algorithm
+- subclass: comparison sorting
+- data structure: array
+- Worst-case performance        : O(n²)
+- Best-case performance         : O(n log n)
+- Average performance           : O(n log n)
+- Worst-case space complexity   : O(n)
+
+**Library sort**, or **gapped insertion sort** is a sorting algorithm that uses an *insertion sort*, but with gaps in the array to accelerate subsequent insertions.
+
+
+
 ## Selection sort
 
 Repeatedly find the smallest element in the unsorted list and append it to the sorted list. The smallest element is the one that has no preceding element. The algorithm is finished when the list of unsorted elements becomes empty. This sorting algorithm is called selection sort because it is based on repeatedly selecting an element from an unsorted list. Subtask is finding the smallest element. Most of the effort in selection sort is expended on finding the smallest element in the unsorted list. Even though the unsorted list shrinks by one element in each step, the overall runtime of the sorting algorithm is still quadratic, since we have to traverse, on average, a list that contains half the elements.

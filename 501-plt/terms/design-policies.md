@@ -1,0 +1,3 @@
+# Polices
+
+type equality

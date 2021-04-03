@@ -9,10 +9,9 @@ https://en.wikipedia.org/wiki/Literal_(computer_programming)
 [String literal](https://en.wikipedia.org/wiki/String_literal)
 
 
-A value may be introduced either directly, as a literal, or as a result of an expression. A **literal** is a value that is directly specified in source code.
+A *value* may be introduced either directly, as a literal, or as a result of an expression. A **literal** is a value that is directly specified in source code.
 
 Usually, almost all primitive type values of a language have literal epresentation that makes their use comfortable. If a language had no literals, getting at them could still be possible in cases of dynamically typed languages. JS is famous for this, inspiring a slew of experimental languages that try to retrieve all JS literals via other means (e.g. BrainFuck).
-
 
 one could say that otherwise we wouldn't be able to use them, at least not comfortably. This uncomfortable use of language primitives has become famous in JS, which provides language constructs that we can use to retrieve pretty much all values (otherwise conveninetly available as literals).
 

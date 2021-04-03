@@ -15,7 +15,7 @@ One kind of *primitive expression* is a *number*; more precisely, the expression
 
 *Expressions* representing numbers may be combined with an expression representing a *primitive procedure* (such as +) to form a *compound expression* that represents the application of the procedure to those numbers.
 
-```lisp
+```scheme
 512
 ; 512
 
@@ -215,11 +215,9 @@ The interpreter returns the value of the corresponding consequent expression of 
 The special form `if`is a restricted type of conditional used when there are exactly two cases in the case analysis.
 
 
-
 The general form of an `if` expression is
 
 (if <predicate> <consequent> <alternative>)
-
 
 
 

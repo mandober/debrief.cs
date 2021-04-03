@@ -1,16 +1,8 @@
 # The Anatomy Of Programming Languages
 
-Excerpts from the book:
-
-**The Anatomy Of Programming Languages**
-
-by Alice E. Fischer, Frances S. Grodzinsky
-
-Prentice Hall, 1993
-
+from the book: *The Anatomy Of Programming Languages* by Alice E. Fischer, Frances S. Grodzinsky. Prentice Hall, 1993
 
 ## Contents
-
 
 *I About Language*
 
@@ -103,7 +95,7 @@ Prentice Hall, 1993
 7.1.1 The Role of Names
 7.1.2 Definition Mechanisms: Declarations and Defaults
 7.1.3 Binding
-7.1.4 Names and Objects: Not a One-to-One Correspondence
+7.1.4 Names and Objects: Not a one-to-one correspondence
 7.2 Binding a Name to a Constant
 7.2.1 Implementations of Constants
 7.2.2 How Constant Is a Constant?

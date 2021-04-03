@@ -21,7 +21,6 @@
 [Function overloading | Wikiwand](https://www.wikiwand.com/en/Function_overloading)
 
 
----
 
 Name binding is the association of entities (program components) with identifiers.
 

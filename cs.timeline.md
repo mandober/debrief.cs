@@ -52,6 +52,7 @@ https://www.computerhope.com/history/index.htm
 - 1964 Speakeasy (computational env)
 - 1964 BASIC
 - 1964 PL/I
+- 1964 The earliest description of *continuations* by Adriaan van Wijngaarden
 - 1966 JOSS
 - 1967 BCPL (forerunner to C, forerunner to B)
 - 1968 Logo
@@ -88,6 +89,7 @@ https://www.computerhope.com/history/index.htm
 - 1987 Perl
 - 1987 Minix first release
 - 1987 Windows 2.0
+- 1988 Control delimiters of *delimited continuations*, by Matthias Felleisen
 - 1988 Tcl
 - 1988 Wolfram Language
 - 1989 FL (Backus)

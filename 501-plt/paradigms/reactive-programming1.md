@@ -1,6 +1,11 @@
-# The introduction to Reactive Programming you've been missing
+# Reactive programming
+
+https://en.wikipedia.org/wiki/Reactive_programming
+
+## The introduction to Reactive Programming you've been missing
 
 This tutorial as a series of videos
+
 If you prefer to watch video tutorials with live-coding, then check out this series I recorded with the same contents as in this article: [Egghead.io - Introduction to Reactive Programming](https://egghead.io/series/introduction-to-reactive-programming).
 
 

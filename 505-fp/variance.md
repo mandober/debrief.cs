@@ -21,3 +21,10 @@ Within the type system of a programming language, a typing rule or a type constr
 - __bivariant__ if _both apply_, `I<A> <= I<B>` and `I<B> <= I<A>` at the same time
 - __invariant__ (nonvariant) if _neither applies_.
 
+
+## Covariant generics
+
+Why not covariant generics?
+http://conway.rutgers.edu/~ccshan/wiki/blog/posts/Unsoundness/
+
+The PL `Dart` has a type system that features **covariant generics**, so it's unsound, people would conclude. The basic problem with covariant generics is that it lets you take a bowl of apples and call it a bowl of fruit. Which is fine if you are just going to eat from the bowl and you like all fruits, but what if you decide to contribute a banana to the fruit bowl? Someone taking from the bowl expecting an apple might choke. And someone else could call the same bowl 'a bowl of things', and then put a pencil in it, just to spite you.

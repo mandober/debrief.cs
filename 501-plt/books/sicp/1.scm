@@ -1,1 +1,0 @@
-;; Scheme notes 1

@@ -2,7 +2,7 @@
 
 <!-- TOC -->
 
-- [Abstract Data Types](#abstract-data-types)
+- [Abstract Data Type](#abstract-data-type)
 - [Algebraic Data Type](#algebraic-data-type)
 - [Abstract Syntax Tree](#abstract-syntax-tree)
 - [Aliasing](#aliasing)
@@ -12,6 +12,7 @@
 - [Assembly](#assembly)
 - [Bidirectional map](#bidirectional-map)
 - [Big Endianness](#big-endianness)
+- [Böhm-Berarducci encoding](#böhm-berarducci-encoding)
 - [Bounded parametric polymorphism](#bounded-parametric-polymorphism)
 - [Compiler](#compiler)
 - [Composition over inheritance](#composition-over-inheritance)
@@ -47,6 +48,8 @@
 - [Polymorphism](#polymorphism)
 - [Polymorphic type](#polymorphic-type)
 - [Prelude](#prelude)
+- [Recursion](#recursion)
+- [Program synthesis](#program-synthesis)
 - [Reentrant](#reentrant)
 - [Reflection](#reflection)
 - [Reference](#reference)
@@ -75,10 +78,12 @@
 
 
 
-## Abstract Data Types
+## Abstract Data Type
+
 Any type that does not specify an implementation is an abstract data type. For instance, a stack can be implemented as an array or as a linked list. Other abstract types are queue, tree, graph, smart pointer, etc. Programming that is agnostic about concrete data types is called generic programming.
 
 ## Algebraic Data Type
+
 Algebraic data type (ADT) is a kind of composite type, a type formed by combining other types. Two common classes of algebraic types are product types and sum types, also called tagged or disjoint unions or variant types.
 
 ## Abstract Syntax Tree
@@ -104,6 +109,9 @@ A bidirectional map, or a hash bag, is an associative data structure in which th
 
 ## Big Endianness
 Big endian architectures order bytes in memory with the most significant byte (MSB) of a multi-byte value in the lowest-numbered memory location.
+
+## Böhm-Berarducci encoding
+The typed version of Church encoding that can be used to model data structures in a typed lambda calculus (using only functions).
 
 ## Bounded parametric polymorphism
 Sometimes a limit on types which can be used in generics is needed and this can be achieved with bounded parametric polymorphism. It requires types, in order to be applicable for use with generics, to have something in common, like belonging to the same type class or to implement a common behaviour.
@@ -139,7 +147,12 @@ In dynamic languages variables don't carry the type: a variable can change its b
 Endianness only applies to processors that allow individual addressing of units of data (such as bytes) that are smaller than the basic addressable machine word. An architecture may use _big_ or _little endianness_, or both, or be configurable to use either. The x86 architecture is little endian. Most RISC architectures (SPARC, Power, PowerPC, MIPS) were originally big endian (ARM was little endian), but many (including ARM) are now configurable.
 
 ## Embarrassingly parallel
-In parallel computing, a pleasingly (embarrassingly, perfectly) parallel problem is one where little effort is needed to separate the problem into a number of parallel tasks. 
+
+In parallel computing, an embarrassingly parallel problem (embarrassingly parallelizable) is one whose effort requirements, in order to divide it into a number of parallel tasks are slim or none (and Slim's left town).
+
+
+This is often the case where there is little or no dependency or need for communication between those parallel tasks, or for results between them.
+slim or none effort
 
 ## Foreign Function Interface
 Interacting with functions written in a foreign language. In Rust, FFI is used to call functions written in another language (typically calling C or C++ functions from Rust) and when another language interfaces with Rust's functions (e.g. calling Rust's functions from JavaScript).
@@ -225,6 +238,24 @@ A polymorphic type is one whose operations can also be applied to values of some
 ## Prelude
 Prelude defines a set of commonly and frequently used language items that is implicitly imported.
 
+## Recursion
+
+The recursion may involve other language entities, but it is by far most commonly realized with functions, which are, thus, referred to as recursive functions. A half-assed description of such functions says that "recursion is when a function calls itself", a phrase that raised the concern to quickly come up with something more stronk, moonshine well-foundedness newly-foundland [throw out the imposters]. In the modern treatment, the term "recursion" almost always entails well-foundedness.
+
+The *well-founded recursion* manages to curb the recursive set of arguments and make it (in some sense) smaller, with each iterative step, on its way towards the base case. Or, more briefly, it is a (recursive) function that (always) terminates.
+
+Recursion is closely related to mathematical induction.
+
+Recursion is a divide-and-conquer technic applicable to solving self-similar computational problems. The self-similarity of a problem means that the same function (recursion is most commonly realized through a recursive function) can be used to solve all the subproblems that the main problem is broken down into. This is where the "self-similarity" kicks in: the main problem and all the (generated) subproblems have to be sufficiently similar.
+
+(recursion = analysis + synthesis) Or, from another perspective, it must be possible to synthesize the main problem back from the set of the ever so smaller components it is being reduced to by analysis.
+
+In a narrow sense, the term "recursion" is used to describe a computational structure in which the solution to any but the simplest instances of a problem requires, as an initial step, the solution of one or more subproblems of the same sort. Recursive procedure invocations are used to obtain the results for these subproblems, which are then brought together and postprocessed. The results of the postprocessing are returned as the results of the original invocation of the recursive procedure.
+
+## Program synthesis
+
+In the proof of a property, we take an existing program and then demonstrate that it satisfies some property. In the synthesis of a program, we take a property called *specification* and synthesize a program that satisfies it. In some contexts, program synthesis is called *program derivation*. Both proof and synthesis require essentially the same reasoning. Often a proof can be turned into a synthesis by reversing the order of steps, and vice versa.
+
 ## Reentrant
 A function is reentrant if it can be interrupted in the middle of its execution, and then be safely called again ("re-entered") before its previous invocations complete execution.
 
@@ -265,7 +296,7 @@ Type annotation is an explicit identification of the data type by placing type i
 The type system uses data type information to verify and enforce the constraints of data types through a process called type checking.
 
 ## Type erasure
-Making the compiler forget about a determined type of a value. For example, trait object operations can be seen as erasing the compiler’s knowledge about the specific type of the reference, and hence trait objects are sometimes referred to as type erasure.
+Making the compiler forget about a determined type of a value. For example, trait object operations can be seen as erasing the compiler's knowledge about the specific type of the reference, and hence trait objects are sometimes referred to as type erasure.
 
 ## Type identifier
 Type identifier directly refers to a named data type, with the same name as the identifier, but it can also refer to a type alias.

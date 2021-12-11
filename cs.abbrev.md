@@ -13,7 +13,6 @@ Front Side Bus
 ## HT
 Hyper-Threading (Intel) or HyperTransport (AMD)
 
-
 ## ILP
 Instruction Level Parallelism
 

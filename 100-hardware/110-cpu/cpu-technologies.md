@@ -1,0 +1,34 @@
+# Processor technologies
+
+* Models of computation
+  - Abstract machine
+  - Stored-program computer
+  - Finite-state machine (FSM)
+    - Finite-state machine with datapath
+    - Hierarchical state machine
+    - Deterministic finite automaton
+    - Queue automaton
+    - Cellular automaton
+      - cellular spaces
+      - cellular structures
+      - tessellation automata
+      - tessellation structures
+      - homogeneous structures
+      - iterative arrays
+    - Quantum cellular automaton
+  - Turing machine
+    - Alternating Turing machine
+    - Universal
+    - Post-Turing
+    - Quantum
+    - Nondeterministic Turing machine
+    - Probabilistic Turing machine
+    - Hypercomputation
+    - Zeno machine
+  - Belt machine
+  - Stack machine
+  - Register machines
+    - Counter
+    - Pointer
+    - Random-access
+    - Random-access stored program

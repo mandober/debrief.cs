@@ -1,18 +1,13 @@
 ---
 title        : Ad Hoc Polymorphism
-slug         : ad-hoc-polymorphism.md
-path         : /501-plt/terms/
+slug         : ad-hoc-polymorphism
 parent       : PLT
-parent_uri   : ./README.md
-breadcrumbs  : CS > PLT > Terms
-wikilink     : https://en.wikipedia.org/wiki/Ad_hoc_polymorphism
+wiki         : https://en.wikipedia.org/wiki/Ad_hoc_polymorphism
 date_created : 2018-01-01
-topic        : CS, PLT
-keywords     : plt, polymorphism
 date_edited  : 2020-09-29
-pageid       : 3cefe0db-7616-4848-a2b6-9296746a178b
+pid          : 3cefe0db-7616-4848-a2b6-9296746a178b
+keywords     : polymorphism
 ---
-
 # Ad Hoc Polymorphism
 
 https://en.wikipedia.org/wiki/Ad_hoc_polymorphism

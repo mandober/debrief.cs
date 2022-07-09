@@ -20,7 +20,7 @@ IPv6 static addressing works the same as in IPv4; implementing DHCP can be state
 
 **Stateful DHCP** server tracks the IP addresses it leases.
 
-**Stateless DHCP** provides DNS server information (it doesn't lease IPv6 addresses and it doesn't track the advertised info) and it is paired with another mechanism (with **Static addressing**, or with SLAAC) to complete IPv6 address assignment.
+**Stateless DHCP** provides DNS server information (it doesn't lease IPv6 addresses and it doesn't track the advertisedF info) and it is paired with another mechanism (with **Static addressing**, or with SLAAC) to complete IPv6 address assignment.
 
 **SLAAC** provides the ability to address a host based on a network prefix that is advertised from a local network router via RA.
 

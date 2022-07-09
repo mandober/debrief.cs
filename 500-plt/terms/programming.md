@@ -1,7 +1,5 @@
 # Programming
 
-## Authority control
-
 private and public (qualifiers)
 demarcation line
 upstream/downstram

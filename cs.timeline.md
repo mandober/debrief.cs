@@ -58,7 +58,7 @@ Legend
 - 1947 ʜᴡ Shockley, Bardeen, Brattain invent the first transistor
 - 1948 ᴍᴀ Mathematical Theory of Communication, C. Shannon
 - 1948 ᴘʟ CPC Coding scheme by Howard H. Aiken
-- 1948 ʟᴏ Curry notation system, Haskell Curry
+- 1948 ʟᴏ Curry notation system, Haskell B. Curry
 - 1948 ᴘʟ Plankalkül concept, Konrad Zuse
 - 1949 ᴘʟ EDSAC Initial Orders, David Wheeler
 - 1949 ᴘʟ Short Code by Mauchly & Schmitt
@@ -106,40 +106,45 @@ Legend
 - 1969 ᴏs Unix at AT&T Bell Labs (Thompson, Ritchie, McIlroy, Ossanna)
 - 1969 ᴛᴘ Hindley-Milner type system desc by Roger Hindley
 - 1969 ᴛᴀ Marvin Minsky wins the Turing Award
+- 1969 Rod Burstall invents *pattern matching*
+- 1970 first impl of *pattern matching* in Fred McBride's LISP variant
 
 ## 1970's
-- 1970's ʜᴡ The decade when software cost overtook hardware's
-- 1970's ʜᴡ MOS overtook magnetic-core memory as dominant memory tech
-- 1970 ᴘʟ Pascal by Niklaus Wirth, first appearance
-- 1970 ᴛᴀ James H. Wilkinson
-- 1970 ᴘʟ Forth
-- 1971 ᴛᴀ John McCarthy
-- 1971 ᴏs Unix first release (written in assembly, then in C)
+
+- 1970's ʜᴡ The cost of software overtakes the cost of hardware
+- 1970's ʜᴡ The MOS tech overtakes magnetic-core as the dominant memory
+
+- 1970 ᴘʟ [Pascal][^pascal] by Niklaus Wirthm, first appearance
+- 1970 ᴛᴀ Turing Award: [James H. Wilkinson][^wilkinson]
+- 1970 ᴘʟ [Forth][^forth]
+- 1971 ᴛᴀ Turing Award: [John McCarthy][^mccarthy]
+- 1971 ᴏs [Unix] OS first release (written in assembly, then in C)
 - 1971 ᴛᴘ Math foundations for denotational semantics, Scott and Strachey
-- 1971 ᴛᴘ Lazy evaluation conception, Vuillemin
-- 1972 ᴘʟ C by Dennis Ritchie at Bell Labs
-- 1972 ᴘʟ Smalltalk
-- 1972 ᴘʟ Prolog
-- 1972 ᴛᴀ Edsger W. Dijkstra
-- 1973 ᴛᴀ Charles Bachman
+- 1971 ᴛᴘ The conception of [lazy evaluation][^laziness] by Vuillemin
+- 1972 ᴘʟ [C][^clang] by Dennis Ritchie @ Bell Labs
+- 1972 ᴘʟ [Smalltalk][^smalltalk]
+- 1972 ᴘʟ [Prolog][^prolog]
+- 1972 ᴛᴀ Turing Award: Edsger W. Dijkstra [^dijkstra]
+- 1973 ᴛᴀ Turing Award: Charles Bachman
 - 1973 ᴘʟ ML by Robin Milner, metalanguage (ML) for LCF theorem prover
 - 1974 ᴛᴘ Lazy evaluation, Wadsworth
-- 1974 ᴛᴀ Donald Knuth
-- 1975 ᴛᴀ Allen Newell; Herbert A. Simon
+- 1974 ᴛᴀ Turing Award: Donald Knuth
+- 1975 ᴛᴀ Turing Award: Allen Newell; Herbert A. Simon
 - 1975 ᴘʟ Scheme by Sussman and Steele
 - 1976 ᴛᴛ Domain theory by Dana Scott
 - 1976 ᴘʟ SASL by D.Turner, a pure higher-order FPL with lexically scoped variables; sugared *λ-calculus* derived from the applicative subset of ISWIM
-- 1976 ᴛᴘ Lazy evaluation, Dan Friedman and David Wise, "Cons should not evaluate its arguments"
-- 1976 ᴛᴘ Lazy evaluation, Peter Henderson and James H. Morris Jr. "A lazy evaluator"
-- 1976 ᴛᴀ Michael O. Rabin; Dana Scott
+- 1976 ᴛᴘ Lazy evaluation, Dan Friedman and David Wise: "Cons should not evaluate its arguments"
+- 1976 ᴛᴘ Lazy evaluation. Peter Henderson and James H. Morris Jr. "A lazy evaluator"
+- 1976 ᴛᴀ Turing Award: Michael O. Rabin; Dana Scott
 - 1977 ᴛᴘ Function definition by pattern matching, Burstall and Darlington
 - 1978 ᴘʟ SQL query language
-- 1978 ᴘʟ K&R C, book
+- 1978 ᴘʟ K&R C book
 - 1978 ᴛᴛ Polymorphic type system for ML, Robin Milner
-- 1978 ᴛᴀ John Backus (Turing lecture) "Can PLs be liberated from the von Neumann style?"
-- 1978 ᴛᴀ Robert W. Floyd
-- 1979 ᴛᴀ Kenneth E. Iverson
-- 1979 sᴡ Bourne shell, `sh`, initial release
+- 1978 ᴛᴀ Turing Award: John Backus' Turing award lecture: "Can PLs be liberated from the von Neumann style?"
+- 1978 ᴛᴀ Turing Award: Robert W. Floyd
+- 1979 ᴛᴀ Turing Award: Kenneth E. Iverson
+- 1979 sᴡ [Bourne shell][^sh] Stephen Bourne @ Bell Labs, first release
+
 
 ## 1980's
 - 1980 ᴘʟ Ada first appearance
@@ -167,6 +172,7 @@ Legend
 - 1986 ᴛᴀ John Hopcroft; Robert Tarjan
 - 1987 ᴛᴀ John Cocke
 - 1987 ᴘʟ Perl
+- 1987 ᴘʟ Clean (Brus et al.) based on the functional term graph rewriting
 - 1987 ᴏs Minix first release
 - 1987 ᴏs Windows 2.0
 - 1987 ᴛᴘ Natural semantics by Kahn
@@ -203,6 +209,7 @@ Legend
 
 * 1992
 - ᴛᴀ Butler Lampson
+- ᴘʟ Haskell 1.0 standard (Hudak et al.)
 
 * 1993
 - ᴛᴀ Juris Hartmanis; Richard E. Stearns
@@ -215,6 +222,7 @@ Legend
 * 1994
 - ᴘʟ CLOS (part of ANSI Common Lisp)
 - ᴛᴀ Edward Feigenbaum; Raj Reddy
+- ᴘʟ Clean 1.0
 
 * 1995
 - 1995 sᴡ Cygwin initial release
@@ -243,10 +251,12 @@ Legend
 - 1998 ᴛᴀ Jim Gray
 
 * 1999
+- 1999 ᴘʟ Haskell 98 standard (Peyton Jones and Hughes)
 - 1999 ᴛᴀ Fred Brooks
 - 1999 ᴘʟ C99 standard
 - 1999 sᴡ Cygwin 1.0 by Cygnus
 - 1999 ᴏs Windows 98 SE
+
 
 ## 2000's
 - 2000 ᴏs Windows 2000
@@ -259,8 +269,10 @@ Legend
 - 2001 sᴡ POSIX.1-2001 (or IEEE Std 1003.1-2001), equal to SUS v.3
 - 2001 ᴘʟ C#
 - 2001 ᴘʟ D
+- 2002 ᴘʟ Clean 2.1 (Plasmeijer and van Eekelen) uniquness typing, dynamic typing, builtin generic programming
 - 2002 ᴘʟ Scratch
 - 2002 ᴛᴀ Ron Rivest; Adi Shamir; Leonard Adleman
+- 2003 ᴘʟ Haskell 98 standard, revision (Peyton Jones)
 - 2003 ᴛᴀ Alan Kay
 - 2003 ᴘʟ Groovy
 - 2003 ᴘʟ Scala
@@ -285,6 +297,7 @@ Legend
 - 2009 ᴏs Windows Server 2008 R2
 
 ## 2010's
+- 2010 ᴘʟ Haskell 2010 standard (Simon Peyton Jones)
 - 2010 ᴘʟ Rust v.1
 - 2010 sᴡ Single UNIX Specification v.4 (curses interface update)
 - 2010 ᴇᴛ Oracle buys Sun Microsystems
@@ -322,7 +335,7 @@ Legend
 ## 2020's
 - 2020 ᴇᴛ Covid-19 epidemic; working from home becomes the norm
 - 2020 ᴛᴀ Alfred Aho; Jeffrey Ullman
-- 2021 sᴡ GHC 9.2 and GHC2021 Haskell pseudo-standard
+- 2021 ᴘʟ GHC 9.2 and GHC2021 Haskell pseudo-standard
 - 2021 ᴏs Windows 11 officially released on May 10th
 
 

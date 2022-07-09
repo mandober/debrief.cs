@@ -14,6 +14,8 @@
 - [Big Endianness](#big-endianness)
 - [Böhm-Berarducci encoding](#böhm-berarducci-encoding)
 - [Bounded parametric polymorphism](#bounded-parametric-polymorphism)
+- [Closure](#closure)
+- [CHI](#chi)
 - [Compiler](#compiler)
 - [Composition over inheritance](#composition-over-inheritance)
 - [Data structure](#data-structure)
@@ -23,6 +25,7 @@
 - [Dispatch](#dispatch)
 - [Duck typing](#duck-typing)
 - [Dynamically typed language](#dynamically-typed-language)
+- [Escape Analysis](#escape-analysis)
 - [Endianness](#endianness)
 - [Embarrassingly parallel](#embarrassingly-parallel)
 - [Foreign Function Interface](#foreign-function-interface)
@@ -59,6 +62,8 @@
 - [Statically Typed Language](#statically-typed-language)
 - [Static dispatch](#static-dispatch)
 - [Static Single Assignment](#static-single-assignment)
+- [Strictness Analysis](#strictness-analysis)
+- [Tail-Recursion Elimination](#tail-recursion-elimination)
 - [Token](#token)
 - [Transmute](#transmute)
 - [Type annotation](#type-annotation)
@@ -116,6 +121,34 @@ The typed version of Church encoding that can be used to model data structures i
 ## Bounded parametric polymorphism
 Sometimes a limit on types which can be used in generics is needed and this can be achieved with bounded parametric polymorphism. It requires types, in order to be applicable for use with generics, to have something in common, like belonging to the same type class or to implement a common behaviour.
 
+## Closure
+
+
+A closure is a function, `g`, that has escaped its original scope - commonly, by being returned from a higher-order function, `f`, inside of which it is lexically nested - but nevertheless holds a set of references to values from its originating environment, even if that environment is long gone.
+
+A closure is a function, `k`, that "closes over" its original env - meaning it binds a subset of values from the environment it is defined in (also called its lexical scope). In fact, only a function that has escaped its originating env is called a closure. Normally, this happens when a nested function is returned by the enclosing function (support for first-class functions is reqyuired).
+
+, `f`, inside of which it is nested
+
+
+Commonly, this happens when a higher-order function, `f`, inside of which is a nested function (our wanna be closure) `h`, returns the function `f`
+
+
+Actually, it holds a set of references to the values accessible to it from its originating env. 
+
+the values if its enclosing environment, keeping a reference to them even if they get destroyed (drop out of scope).
+
+
+together with the subset of the enclosing environment.
+
+Closures are a feature of PLs that is similar to functions. A closure is a subroutine (a function) that, besides its regular local variables, also supports nonlocal (free) variables that get bound to values from the enclosing environment, at the compile-time (static binding) or run-time (dynamic binding). In modern PLs, exp. in FPL, a closure is created when a higher-order function `f` returns a function `g`, where `g` is often a function nested inside `f`. The returned function has references to a set of values from its original environment, even though it later finds itself inside another environment.
+
+
+containing the free variables of this function. The environment allows the function to reference its free variables by extending their lifetime to the lifetime of the closure itself
+
+## CHI
+The most profound connection between logic and computation is a pun. The doctrine of Propositions as Types asserts that propositions correspond to types, proofs to programs, and simplification of proofs to evaluation of programs. The proof of a conjunction is a pair, the proof of a disjunction is a case expression, and the proof of an implication is a lambda expression. Proof by induction is just programming by recursion. Dependently-typed programming languages, such as Agda, exploit this pun. To prove properties of programming languages in Agda, all we need do is program a description of those languages Agda. Finding an abstruse mathematical proof becomes as simple and as fun as hacking a program. This talk introduces Programming Language Foundations in Agda, a new textbook that is also an executable Agda script---and also explains the role Agda is playing in IOHK's new cryptocurrency.
+
 ## Compiler
 Compiler is primarily used to translate source code from a high-level programming language to a lower level language (e.g., assembly language, object code, or machine code), to create an executable program.
 
@@ -142,6 +175,9 @@ Identifying a value by probing for methods it responds to, rather then checking 
 
 ## Dynamically typed language
 In dynamic languages variables don't carry the type: a variable can change its binding and type freely, throughout program's execution, i.e. values of different types can be (re)assigned to a variable, and interpreter will manage all the typing. Dynamic languages rely heavily on type inference. Type checking is performed at run-time.
+
+## Escape Analysis
+Escape analysis is a method for determining the dynamic scope of pointers. It can be used to check whether the address of a heap allocated object ever leaves the scope of the function where the allocation is performed. If it does not escape its scope, the heap allocation could be replaced by an allocation on the stack.
 
 ## Endianness
 Endianness only applies to processors that allow individual addressing of units of data (such as bytes) that are smaller than the basic addressable machine word. An architecture may use _big_ or _little endianness_, or both, or be configurable to use either. The x86 architecture is little endian. Most RISC architectures (SPARC, Power, PowerPC, MIPS) were originally big endian (ARM was little endian), but many (including ARM) are now configurable.
@@ -170,8 +206,11 @@ It is a variable-naming convention that reminds the user what type the variable 
 A variable is initialized if it has been assigned a value and hasn't since been moved from. All other memory locations are assumed to be initialized. Only unsafe Rust can create such a memory without initializing it.
 
 ## Inlining
-1. Function:
-  inlining is removal of a function call by including the function body directly into the callsite, enabling optimizations (such as avoiding the overhead of a function call). It is controlled with the `inline` attribute:
+In principle, inlining is very simple optimization technic where a function call is replaced by an instance of the function's entire body, thereby skipping the need to jump (relatively slow maneuvre).
+
+Inlining is the practice of replacing a function call with the called function's body, pasted right into the callsite, eliding the jump.
+
+to a function by including the function body directly into the callsite, enabling optimizations (such as avoiding the overhead of a function call). It is controlled with the `inline` attribute:
   - `#[inline(never)]`
   - `#[inline]` hint to the compiler that inlining is desirable. It is required for any cross-crate inlining.
   - `#[inline(always)]` hint to the compiler that inlining is required.
@@ -282,6 +321,12 @@ Static dispatch usually resolves polymorphic calls using _monomorphization_. It 
 
 ## Static Single Assignment
 Static Single Assignment (SSA) is a property of an intermediate representation (IR), which requires that each variable is assigned exactly once, and every variable is defined before it is used. Existing variables in the original IR are split into versions, new variables typically indicated by the original name with a subscript in textbooks, so that every definition gets its own version. In SSA form, use-def chains are explicit and each contains a single element.
+
+## Strictness Analysis
+Strictness analysis is used to prove whether a function is strict in one or more of its arguments. A strict argument is guaranteed to always be evaluated by the function and hence the evaluation can also be done on the caller side instead. This can lead to a significant decrease in thunks in the program and therefore improved performance, since unnecessary evaluation of them can be eliminated.
+
+## Tail-Recursion Elimination
+A function is said to be tail-recursive if the last operation performed in its body is a bare recursive call (without further touching the result of the call). Such a recursive function does not need the previous stack frames since it leaves nothing there (don't touch the results of the call part - you may only return it, nothing else). This opens up the possibility to optimize away such functions by converting them into a iterative version, e.g. a (bounded) loop computation.
 
 ## Token
 Tokens are primitive productions in the grammar defined by regular, non-recursive, language.

@@ -10,6 +10,7 @@ https://en.wikipedia.org/wiki/Category:Computer_data
 
 - [12-bit](https://en.wikipedia.org/wiki/12-bit)
 - [18-bit](https://en.wikipedia.org/wiki/18-bit)
+
 - [AS3 (networking)](https://en.wikipedia.org/wiki/AS3_(networking))
 - [Böhm's language](https://en.wikipedia.org/wiki/B%C3%B6hm%27s_language)
 - [Change data capture](https://en.wikipedia.org/wiki/Change_data_capture)

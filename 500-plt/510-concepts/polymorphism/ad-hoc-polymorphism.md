@@ -8,7 +8,7 @@ date_edited  : 2020-09-29
 pid          : 3cefe0db-7616-4848-a2b6-9296746a178b
 keywords     : polymorphism
 ---
-# Ad Hoc Polymorphism
+# PL Concepts :: Types of polymorphism :: Ad hoc polymorphism
 
 https://en.wikipedia.org/wiki/Ad_hoc_polymorphism
 https://en.wikipedia.org/wiki/Operator_overloading

@@ -1,0 +1,116 @@
+# CS :: SECTIONS
+
+- CS general
+  - CS fundamentals
+  - CS history
+  - Theoretical Computer Science
+- Hardware
+  - System architectures
+    - Instruction Set Architecture (ISA)
+    - Microarchitecture (computer organization)
+    - System design (implementation)
+  - CPU
+    - Processor
+      - Single processor
+      - Dual processor
+      - Core
+      - Multicore
+    - Units
+      - Control units
+      - ALU
+    - Bitness
+    - Cache
+  - Memory
+    - Static
+    - Dynamic
+    - TLB
+  - Motherboard
+    - Buses
+    - Bridges
+    - IO ports
+  - Devices
+    - Core devices
+    - Storage devices
+    - Input devices
+    - Output devices
+  - Peripheral devices
+    - Terminal
+    - Keyboard
+- Software
+- Data
+  - Information theory
+  - Coding theory
+  - Database theory
+- Computing
+  - Sequential
+  - Concurrent
+  - Parallel
+  - Distributed
+  - Nondeterministic
+  - Probabilistic
+  - Quantum
+- Programming
+  - Virtual memory
+  - Program execution
+  - Executable formats
+- Programming Language Theory
+  - Data structures
+  - Algorithms
+  - Computational complexity
+  - Compiler theory
+    - Abstract machines
+    - Interpreters
+    - JIT compilation
+    - AST
+    - Language Syntax
+      - Grammar
+      - Syntactic sugar
+    - Language Semantics
+    - Language Pragmatics
+    - Intermediate representations
+    - Object language
+    - Machine language
+    - Assemblers
+    - Disassemblers
+  - Programming languages
+    - Programming paradigms
+    - Programming language generations
+    - Programming language features
+    - Programming language design
+    - Programming language design approches
+    - Programming language design choices
+    - Programming language implementation
+    - Program correctness
+    - Program verification
+    - Theorem proving
+- Artificial Intelligence
+  - Machine learning
+  - Deep learning
+- Networking
+  - Networks
+  - Standard 7 OSI levels
+  - Protocols
+  - Network devices
+  - Network software
+  - Intranets
+  - Internet
+- Security
+  - Cryptography
+  - Penetration testing
+  - Reverse engineering
+  - Hacking
+- Big data
+  - Map and reduce
+  - Clound computing
+  - Data science
+  - Data mining
+  - Blockchain technology
+    - Virtual currency
+      - Bitcoin
+      - Virtual currency mining
+    - IFS (decentralized internet)
+    - Proof of work
+    - Proof of stake
+    - Consensus (distributed computing)
+      - Adversarial networks
+      - Bizanthine problem

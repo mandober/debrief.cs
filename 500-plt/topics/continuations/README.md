@@ -1,0 +1,97 @@
+# PL Features :: Continuations
+
+- About continuations
+  - what is a continuation
+  - continuations in Scheme
+    - first-class functions
+    - continuations as functions
+    - continuations as language constructs
+    - first-class continuations
+  - continuation type
+  - formal description of continuations
+  - informal description of continuationss
+  - continuations analogies
+- Subroutine
+  - routine
+  - subprogram
+  - block
+  - procedure
+  - function
+- Subroutine semantics
+  - evaluation strategy
+  - strictness
+- Call by …
+  - call by value
+  - call by reference
+  - call by name
+  - call by need
+  - call by result
+  - call by value-result
+- Invoking a function
+  - function call
+  - call site
+- Components of a function
+  - parameters
+    - formal parameters
+    - actual parameters, arguments
+    - binder
+    - parameter binding occurence
+    - parameter application occurences
+  - function parts
+    - function prototype
+      - function name
+      - function type
+      - function signature
+      - function fingerprint (identification)
+        - function name + type signature
+        - function name + part of type signature
+          - function name + input type params
+    - function declaration
+    - function definition
+        - function expression
+        - function statement
+      - function head
+      - function body
+        - function block
+        - return statement
+      - function input
+      - function output
+  - control flow
+  - yielding control
+  - the call stack
+  - return address
+- CPS
+  - Direct style
+  - Convention-passing style (CSP)
+  - calling conventions
+  - Nominal return type
+  - Answer types
+  - tail-call
+  - tail-call recursion
+  - Direct style vs CPS
+  - Converting from direct style into CPS
+- Use of continuations
+  - using continuations to impl
+  - early return
+  - coroutines
+  - exceptions
+- call/cc
+- Haskell types
+  - type of continuation
+  - continuation as a bare function type
+  - continuation as a bare function type with existential answer type
+  - continuation as a type alias
+  - continuation as an existential data type (coz newtypes cannot have ∃ types)
+  - continuation as a newtype, `Cont`
+  - continuation as a (newtype) monad, `ContT`
+  - Haskell's continuation newtype, `Cont`
+  - Haskell's continuation monad, `ContT`
+  - `callCC` function
+- delimited continuations
+  - reset
+  - shift
+
+
+## Links
+
+https://en.wikipedia.org/wiki/Category:Continuations

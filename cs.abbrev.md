@@ -14,6 +14,9 @@
 - [FRP](#frp)
 - [FSB](#fsb)
 - [HT](#ht)
+- [HKT](#hkt)
+- [HOF](#hof)
+- [HRT](#hrt)
 - [IL](#il)
 - [IPL](#ipl)
 - [ILP](#ilp)
@@ -27,6 +30,7 @@
 - [NUMA](#numa)
 - [PL](#pl)
 - [PLT](#plt)
+- [PoC](#poc)
 - [PSU](#psu)
 - [PMU](#pmu)
 - [PRNG](#prng)
@@ -40,6 +44,7 @@
 - [TCS](#tcs)
 - [TLB](#tlb)
 - [TLP](#tlp)
+- [UDF](#udf)
 - [UMA](#uma)
 
 <!-- /TOC -->
@@ -50,6 +55,9 @@ Application Binary Interface
 
 ## ASCII
 American Standard Code for Information Interchange
+
+## CDN
+Content delivery network
 
 ## CRC
 Cyclic Redundancy Check
@@ -83,12 +91,25 @@ Front Side Bus
 1. Hyper-Threading (Intel)
 2. HyperTransport (AMD)
 
+## HKT
+Higher-kinded types
+
+## HOF
+Higher-order function
+
+## HRT
+Higher-ranked types
+
 ## IL
 Intuitionistic logic
 
-## IPL
-1. Intuitionistic propositional logic; Intuitionistic sentential logic (ISL)
-2. Intuitionistic predicate logic
+## IXP
+Internet exchange points
+
+## IP
+1. Internet Protocol
+2. Internet provider
+3. Intellectual property
 
 ## ILP
 Instruction Level Parallelism
@@ -123,6 +144,9 @@ Programming language
 
 ## PLT
 Programming Language Theory
+
+## PoC
+Proof of concept
 
 ## PSU
 Power supply unit
@@ -163,6 +187,9 @@ Translation look-aside buffer
 ## TLP
 1. Theory of Programming Languages, aka PLT
 2. Thread-level parallelism
+
+## UDF
+User-defined function
 
 ## UMA
 Uniform Memory Access

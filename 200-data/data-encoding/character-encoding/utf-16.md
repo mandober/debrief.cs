@@ -1,5 +1,22 @@
 # UTF-16
 
+**UTF-16**. A multibyte encoding for text that represents each Unicode character with *2 or 4 bytes*; it is not backward-compatible with ASCII. It is the internal form of Unicode in many programming languages, such as Java, C#, and JavaScript, and in many OSs. More technically:
+1. The UTF-16 encoding form
+2. The UTF-16 encoding scheme
+3. "Transformation format for 16 planes of Group 00," defined in Annex C of ISO/IEC 10646:2003; technically equivalent to the definitions in the Unicode Standard.
+
+**UTF-16 Encoding Form**. The Unicode encoding form that assigns each *Unicode scalar value* in the ranges `U+0000..U+D7FF` and `U+E000..U+FFFF` to a *single unsigned 16-bit code unit* with the same numeric value as the Unicode scalar value, and that assigns each Unicode scalar value in the range `U+10000..U+10FFFF` to a *surrogate pair*, according to Table 3-5, "UTF-16 Bit Distribution." (See definition D91 in Section 3.9, Unicode Encoding Forms.)
+
+**UTF-16 Encoding Scheme**. The UTF-16 encoding scheme that serializes a UTF-16 code unit sequence as a byte sequence in either big-endian or little-endian formats. (See definition D98 in Section 3.10, Unicode Encoding Schemes.)
+
+**UTF-16BE**. The Unicode encoding scheme that serializes a UTF-16 code unit sequence as a byte sequence in big-endian format. (See definition D96 in Section 3.10, Unicode Encoding Schemes.)
+
+**UTF-16LE**. The Unicode encoding scheme that serializes a UTF-16 code unit sequence as a byte sequence in little-endian format. (See definition D97 in Section 3.10, Unicode Encoding Schemes.)
+
+
+
+## UTF-16
+
 UTF-16 (16-bit Unicode Transformation Format) is a character encoding capable of encoding all 1,112,064 valid code points of Unicode.
 
 The encoding is variable-length, as code points are encoded with one or two 16-bit code units.
@@ -38,13 +55,3 @@ Code points from the other planes (called Supplementary Planes) are encoded as t
 
 U+D800 to U+DFFF
 The Unicode standard permanently reserves these code point values for UTF-16 encoding of the high and low surrogates, and they will never be assigned a character, so there should be no reason to encode them. The official Unicode standard says that no UTF forms, including UTF-16, can encode these code points.
-
-
-
-
-
-
-
-
-
-

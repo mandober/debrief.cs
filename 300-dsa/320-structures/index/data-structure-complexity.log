@@ -1,0 +1,39 @@
+# Data structure complexity
+
+DS                | Date | Search       | Insert                    | Delete        | op4         | op5         | Space       | Inventors                                 | Notes
+------------------|------|--------------|---------------------------|---------------|-------------|-------------|-------------|-------------------------------------------|-------------------
+Array             |      | O(n)         | O(1)                      | O(1)          |             |             | O(n)        |                                           |
+AVL tree          | 1962 |              |                           |               |             |             |             | Georgy Adelson-Velsky and Evgenii Landis  |
+B-tree            | 1970 | O(log n)     | O(log n)                  | O(log n)      |             |             | O(n)        | Rudolf Bayer, Edward M. McCreight         |
+Linked list       |      | O(n)         | append O(1), prepend O(n) | O(n)          |             |             | O(n)+       |                                           |
+vEB tree          | 1962 | O(log n)     | O(log n)                  | O(log n)      |             |             | O(N)        |                                           | N=2ⁿ max capacity
+
+
+
+Ops
+- Queries (accessors)
+  - search
+  - lookup
+  - find
+    - findMin
+    - findMax
+  - getElem
+  - index
+    - indexes
+    - indexAt
+- Modifications (mutators)
+  - delete, remove
+  - insert
+    - insertAt
+    - append
+    - prepend
+
+
+Complexity - time and space complexities:
+- constant,         O(1)
+- logarithmic,      O(log n)
+- linear,           O(n)
+- linearithmic,     O(n∙log n)
+- quadratic,        O(n²)
+- cubic,            O(n³)
+- through-the-roof, O(kⁿ)

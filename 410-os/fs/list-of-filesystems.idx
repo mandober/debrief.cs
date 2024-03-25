@@ -1,0 +1,146 @@
+# List of filesystems
+
+all filesystems registered to the kernel: `cat /proc/filesystems`
+
+## Well-known filesystems
+
+FS    | Max file size         | Max volume size
+FAT12 | 32 MB (8 KB clusters) | 32 MB (8 KB clusters)
+FAT12 | 16 MB (4 KB clusters) | 16 MB (4 KB clusters)
+FAT16 | 2/4 GB                | 16 GB                     | varies with clusers
+FAT32 | 4 GB                  | 32 GB (Windows format)
+                              |  2 TB (other OS)
+                              | 16 TB (theoretical limit)
+NTFS  | 16 EB                 |                           | 1993
+ExFAT |                                                   | 2006
+
+- FAT32 still popular due to compatibility and its use to format flash drives
+- NTFS, 1993, 16 EB max file size
+- exFAT, 2006, for large flash drives and memory cards, 16 EB max file size. Default fs for SDXC memory cards. Broad support outside win world.
+- ext, 1992
+- ext2, 1993
+- ext3, 2001
+- ext4, 2008, fsize 16 TB, volsize 1 EB
+- HFS (Hierarchical fs), "MacOS Standard", 1985, 2 GB fsize, 2 TB volsize
+- HFS+, "MacOS Extended", 1998, 8 EB file/vol size
+- APFS (Apple fs), 2017, SSD optimized
+- ZFS (zed fs), 2006, Sun Microsystems, since 2013 dev by OpenZFS project
+
+
+## FSs
+
+- ISO 9660, for optical discs
+- UDF (Universal Disk Format), for optical discs
+- EXT, journaling file system for Linux
+  - EXT4
+  - EXT3
+  - EXT2
+  - EXT
+- FAT (File Allocation Table)
+  - FAT32
+  - FAT16
+  - VFAT (virtual FAT)
+  - EXFAT
+- NTFS (New Technology File System)
+- SMB (samba) network protocol for using windows based fs locally
+- NFS (Network File System), protocol for using linux fs locally
+- tmpfs (fs in RAM)
+- snapfuse (snap packages)
+- 9p (plan9 network protocol)
+- drvfs
+- overlay
+- ramfs, rootfs, initramfs
+- devtmpfs
+- procfs
+- sysfs, the filesystem for exporting kernel objects
+- sshfs (a view into a remote, ssh-ed fs)
+- webdriver (exposing a remote fs, e.g. a FTP server, locally)
+- virtiofs: virtio-fs host ⇔ guest shared file system
+- autofs, the goal of autofs is to provide on-demand mounting and race free automatic unmounting of various other filesystems.
+- `btrfs` is a copy on write filesystem for Linux aimed at implementing advanced features while focusing on fault tolerance, repair and easy administration. https://btrfs.readthedocs.io
+- `ceph` is a distributed network file system designed to provide good performance, reliability, and scalability. In contrast to cluster filesystems like GFS, OCFS2, and GPFS that rely on symmetric access by all clients to shared block devices, Ceph separates data and metadata management into independent server clusters, similar to Lustre. Unlike Lustre, however, metadata and storage nodes run entirely as user space daemons. File data is striped across storage nodes in large chunks to distribute workload and facilitate high throughputs. When storage nodes fail, data is re-replicated in a distributed fashion by the storage nodes themselves (with some minimal coordination from a cluster monitor), making the system extremely efficient and scalable.
+- `configfs` is a ram-based filesystem that provides the converse of sysfs's functionality. Where sysfs is a filesystem-based view of kernel objects, configfs is a filesystem-based manager of kernel objects, or config_items.
+
+
+
+## blkid
+
+`blkid -k`
+
+adaptec_raid_member
+apfs
+bcache
+befs
+bfs
+BitLocker
+btrfs
+ceph_bluestore
+cramfs
+crypto_LUKS
+ddf_raid_member
+DM_integrity
+DM_snapshot_cow
+DM_verity_hash
+drbd
+drbdmanage_control_volume
+drbdproxy_datalog
+erofs
+exfat
+exfs
+ext2
+ext3
+ext4
+ext4dev
+f2fs
+gfs
+gfs2
+hfs
+hfsplus
+hpfs
+hpt37x_raid_member
+hpt45x_raid_member
+iso9660
+isw_raid_member
+jbd
+jfs
+jmicron_raid_member
+linux_raid_member
+lsi_mega_raid_member
+LVM1_member
+LVM2_member
+minix
+mpool
+nilfs2
+nss
+- [✔] NTFS
+nvidia_raid_member
+ocfs
+ocfs2
+oracleasm
+promise_fasttrack_raid_member
+ReFS
+reiser4
+reiserfs
+romfs
+silicon_medley_raid_member
+- [✔] squashfs
+squashfs3
+stratis
+- [✔] swap
+swsuspend
+sysv
+ubi
+ubifs
+udf
+ufs
+vdo
+- [✔] vfat
+via_raid_member
+VMFS
+VMFS_volume_member
+vxfs
+xenix
+xfs
+xfs_external_log
+zfs_member
+zonefs

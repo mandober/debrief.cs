@@ -1,0 +1,131 @@
+# Mechanics :: Topics
+
+* Generic terms
+  - game dev
+  - game physics
+  - physics engine
+  - 3d physics engine
+  - 2d physics engine
+
+* Ground terms, elementary terminology
+  - dimensions
+    - 0 dimensions
+    - 1 dimension
+    - 2 dimensions
+    - 3 dimensions
+  - dimensions of geometric objects
+    - 0D, zero dimension
+      - point        •
+    - 1D, one dimension
+      - line         --------
+      - ray          |-------
+      - line segment |------|
+    - 2D, two dimensions
+      - plane, 2D space
+      - trilaterals
+        - triangles
+          - right triangle
+          - isosceles [ʌɪˈsɒsɪliːz]
+          - scalene
+          - equilateral
+      - quardilaterals
+        - square
+        - equilateral
+        - rectangle
+        - paralelogram
+        - rombus
+      - circle
+    - 3D, three dimensions
+      - 3D space
+      - sphere
+      - cube
+      - pyramid
+      - torus
+  - scene, canvas
+  - objects, models
+    - geometric 2D elements
+      - point
+      - line
+      - line segment
+      - ray
+      - angle
+      - triangle
+      - polygon
+      - circle
+      - square
+      - rectangle
+  - vector
+    - line segment, arrow
+    - unit vector
+    - coordinate vector
+    - Euclidean vector
+    - magnitude
+    - direction
+  - unit circle
+  - movement
+    - representing position
+    - position, location
+    - coordinate system
+    - axes
+      - x-axis
+      - y-axis
+      - z-axis
+    - coordinate, pair, triple, n-tuple
+      - projections
+      - projecting a point onto axes
+      - coordinate components
+      - x-coordinate
+      - y-coordinate
+      - z-coordinate
+    - unit circle
+    - unit vectors
+      - x-unit vector, î
+      - y-unit vector, ĵ
+    - angles
+      - measuring angles
+      - angle measure
+        - degree
+        - radians
+        - gradians
+        - turns
+
+* Motion in 2D
+  - canvas, plane, 2D space
+    - cartesian coordinate system
+    - polar coordinate system
+  - position
+  - movement
+  - velocity
+    - speed
+  - acceleration
+    - acceleration components
+      - acc-x
+      - acc-y
+  - friction
+  - mass
+  - elasticity
+  - momentum
+    - angular momentum
+  - impulse
+  - torque
+  - forces
+    - gravity
+  * Tweening
+    - linear tweening (vanilla, straight form)
+  * Easing
+    - simple easing, standard exponential slide
+    - ease in, ease out
+    - easing functions
+
+
+* Collisions
+  - describing collision
+  - representing collision
+  - collision detection
+  - collision response
+  - collision angle
+  - particle collisions
+  - elastic collision
+  - inelastic collision
+  - penetration detection
+  - penetration resolution

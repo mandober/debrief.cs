@@ -1,0 +1,317 @@
+# CS :: Functions :: TOPICS
+
+- *Anatomy of function*
+  - parts and aspects of function
+    - function declaration
+      - function signature
+        - compatible function signatures
+      - function prototype
+        - signature sans return type
+        - forward declaration
+      - function type
+        - function name
+        - function parameters
+        - names
+          - parameters
+          - variables
+
+    - function definition
+    - function binding
+      - binding a fn to a variable
+    - function application/invocation
+  - parts of function definition
+    - function head
+    - function body
+
+
+- language entity of functions
+  - function expression
+  - function statement
+  - function object
+  - function data type
+  - function as data structure
+
+  - name binding
+  - binding site
+  - occurrences of variables
+    - binding occurrence
+    - bound occurrence
+    - free occurrence
+  - function application
+  - function arguments
+  - function input
+  - function output
+    - function value
+    - function as a value (return value)
+    - function return value
+- function type
+  - function signature
+  - function prototype
+  - conformation to a signature
+  - Function type ctor
+  - Function data ctor
+
+
+
+composition
+symmetric function
+mathematical function
+
+- function notation
+- function symbols
+
+
+- lambda
+- expressing dependency between two quantities
+  - function name
+  - function parameters
+  - function input and output
+  - function domain, range and codomain
+  - functions on numbers
+  - functions on sets
+  - Number sets (types): 𝔹 ⊂ ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ ⊂ ℍ ⊂ 𝕆
+  - Boolean function, f : 𝔹 -> 𝔹
+  - Integer-valued function, f : a -> ℤ
+
+    - types of functions
+      - Boolean function
+      - Boolean-valued function
+      - Integer function
+      - Integer-valued function
+      - Real function
+      - Real-valued function
+      - etc.
+    - kinds of functions
+      - identity
+      - constant
+      - flip
+      - compose
+      - S combinator
+    - properties of functions
+      - referential transparrency
+      - main effect (return value)
+      - side effects
+      - observable side-effects
+    - interpretation of functions
+      - function as a relation
+      - function as a black box
+      - function as a set (of ordered pairs)
+      - function as a graph
+      - function as a table
+    - currying
+    - partial application
+    - function expression
+    - closure
+    - annonymous function
+    - closed function expressions
+    - open expressions
+    - combinators
+    - supercombinators
+    - lambda function
+      - fixpoint of a function
+      - substitution
+      - alpha equivalence
+      - beta conversion
+      - eta conversion
+        - eta contraction
+        - eta expansion
+    - equality of functions
+      - intensional equality
+      - extensional equality
+    - evaluation strategies
+      - normal evaluation
+      - lazy evaluation
+      - lazy evaluation of function arguments
+      - short-circuiting
+    - reduction strategies
+      - strict evaluation
+      - eager evaluation
+      - call by name
+      - call by value
+      - call by reference
+      - call by need
+      - evaluation graph
+    - polymorphic functions
+      - parametrically-polymorphic functions
+      - generic functions
+
+  - function declaration
+    - function definition
+    - function expression (in PLs)
+    - function statement (in PLs)
+    - function implementation (in PLs)
+    - method (in PLs)
+  - function signature
+    - function prototype
+    - function type
+  - function type
+  - function head
+  - function name
+  - function parameters
+  - function body
+  - names
+    - parameters
+    - variables
+  - name binding
+  - binding site
+  - occurrences of variables
+    - binding occurrence
+    - bound occurrence
+    - free occurrence
+- function notation
+  - function notation in math
+  - function notation in Haskell
+- function application
+  - function arguments
+  - function input
+  - function output
+    - function value
+    - function as a value (return value)
+    - function return value
+- function object
+- types of functions
+  - Boolean function
+  - Boolean-valued function
+  - Integer function
+  - Integer-valued function
+  - Real function
+  - Real-valued function
+  - etc.
+- kinds of functions
+  - identity
+  - constant
+  - flip
+  - compose
+  - S combinator
+- properties of functions
+  - referential transparrency
+  - main effect (return value)
+  - side effects
+  - observable side-effects
+- interpretation of functions
+  - function as a relation
+  - function as a black box
+  - function as a set (of ordered pairs)
+  - function as a graph
+  - function as a table
+- currying
+- partial application
+- function expression
+- closure
+- annonymous function
+- closed function expressions
+- open expressions
+- combinators
+- supercombinators
+- lambda function
+  - fixpoint of a function
+  - substitution
+  - alpha equivalence
+  - beta conversion
+  - eta conversion
+    - eta contraction
+    - eta expansion
+- equality of functions
+  - intensional equality
+  - extensional equality
+- evaluation strategies
+  - normal evaluation
+  - lazy evaluation
+  - lazy evaluation of function arguments
+  - short-circuiting
+- reduction strategies
+  - strict evaluation
+  - eager evaluation
+  - call by name
+  - call by value
+  - call by reference
+  - call by need
+  - evaluation graph
+- polymorphic functions
+  - parametrically-polymorphic functions
+  - generic functions
+- type-level functions
+- functions in theory
+  - functions in math
+  - functions in logic
+  - functions in type theory
+  - functions in category theory
+  - functions in PLs
+  - functions in Haskell
+    - function type ctor
+    - function data ctor
+- function as (data structure)
+- fmap function
+- mapping
+  - fmap
+  - contramap
+  - bimap
+    - first
+    - second
+  - dimap
+- (co)recursion and (co)induction
+  - types of recursion
+    - iterative functions, iteration
+    - fold, folding, fold operator
+    - primitive recursion
+    - primitively recursive functions (PRFs)
+    - general primitive recursion
+    - general primitively recursive functions (GRFs)
+    - μ operator
+    - direct recursion
+    - mutual recursion
+    - course-of-values induction scheme
+  - types of (co)recursion
+    - course-of-values corecursion scheme
+    - iterative functions on inductive types
+    - recursive functions on inductive types
+    - representation of iterative and recursive functions on inductive types
+    - course-of-values coiteration
+    - primitive corecursion scheme
+    - true coinduction (bisimilarity ⇒ equality)
+    - bisimilarity
+    - indexed corecursion
+  - recursion
+    - data
+    - algebra
+    - induction
+  - corecursion
+    - codata
+    - coalgebra
+    - coinduction
+  - recursion schemes
+    - cata
+    - ana
+    - hylo
+    - para
+    - histo
+    - zygo
+    - futu
+    - elgot
+    - hoist
+    - lambek
+    - mutu
+- function representation
+- function encoding
+- function variance
+- function predicativity
+- function impredicativity
+- function specification
+- specification vs implementation
+- functions as a delimiter of resonsibilities
+- functions as client-side vs server-side barrier
+- functions and exceptions
+  - signalling errors
+    - in-band error signalling
+    - out-of-band error signalling
+    - signalling errors with null vs types vs STM resolvers
+- subroutines
+  - subroutines, subprograms, procedures, blocks, vs functions
+- function calling conventions
+- call stack
+  - call stack frame
+  - call stack pointer
+  - call stack base pointer
+  - funargs problem
+- fixed points
+- attractor points

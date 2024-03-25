@@ -1,0 +1,2 @@
+#| Treat entire repo as the specified language
+*.* linguist-language=Markdown

@@ -1,11 +1,11 @@
 # Double-precision floating-point format
 
-[binary64](https://www.wikiwand.com/en/Double-precision_floating-point_format)
+https://en.wikipedia.org/wiki/Double-precision_floating-point_format
 
 
 * `binary64` IEEE 754 double-precision binary floating-point format
 * `double` common name
-* lacks precision on integer numbers when compared with an integer format of the same size (the same as single-precision floating-point format).
+* lacks precision on integer numbers when compared with an integer format of the same size (the same goes for single-precision floating-point format).
 * Composition/fields:
   - Sign bit: 1 bit
   - Exponent: `11` bits
@@ -58,7 +58,9 @@ The maximum relative rounding error when rounding a number to the nearest
 representable one (the machine *epsilon*) is therefore `2^−53`.
 
 The 11 bit width of the exponent allows the representation of numbers between 
-10^−308 and 10^308, with *full 15–17 decimal digits precision*.
+10^−308 and 10^308, with *full 15-17 decimal digits precision*.
 
 By compromising precision, the *subnormal* representation allows even smaller 
 values up to about 5 × 10^−324.
+
+## Examples

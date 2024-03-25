@@ -16,8 +16,8 @@
   - Representing machine types
     - Machine-dependent integers
     - Machine-dependent pointer size
-    * Number repr
-      * Integer repr
+    * Number representation
+      * Integer representation
         - One's complement
         - Two's complement
         - Sign and magnitude
@@ -34,7 +34,7 @@
     * Intrinsic types
       - Pointer
       - Reference
-    * Text repr:
+    * Text representation
       - Characters
       * Strings
         - null-terminating

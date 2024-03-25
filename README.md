@@ -6,5 +6,4 @@
 
 
 
-
-*"I am not able rightly to apprehend the kind of confusion of ideas that could provoke this."*
+*"I am not able rightly to apprehend the kind of confusion of ideas that could provoke this."* 

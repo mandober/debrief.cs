@@ -1,0 +1,8 @@
+# DS :: Data structure classification factors
+
+Data structure classification factors
+- abstract vs concrete data structures
+- implicit
+- primitive vs non-primitive (composite, compound) data structure
+- sparse vs compact
+- Heterogeneous vs homo

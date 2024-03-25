@@ -1,0 +1,9 @@
+# Abstract data type
+
+An **abstract data type** (ADT) is a *mathematical model* for a data type, defined by its behavior (semantics) from the point of view of type user (client, consumer), specifically in terms of possible values, possible operations and the behavior of these operations.
+
+The mathematical model contrasts with *data structures*, which are *concrete representations of data*, from the point of view of the *implementer*, not user.
+
+For example, a stack has push/pop operations that follow a Last-In-First-Out rule, and can be concretely implemented using either a list or an array. Another example is a set which stores values, without any particular order, and no repeated values. Values themselves are not retrieved from sets, rather one tests a value for membership to obtain a Boolean "in" or "not in".
+
+ADTs are a theoretical concept, used in formal semantics and program verification and, less strictly, in the design and analysis of algorithms, data structures, and software systems. Most mainstream computer languages do not directly support formally specifying ADTs. However, various language features correspond to certain aspects of implementing ADTs, and are easily confused with ADTs proper; these include abstract types, opaque data types, protocols, and design by contract. For example, in modular programming, the module declares procedures that correspond to the ADT operations, often with comments that describe the constraints. This information hiding strategy allows the implementation of the module to be changed without disturbing the client programs, but the module only informally defines an ADT. The notion of abstract data types is related to the concept of data abstraction, important in object-oriented programming and design by contract methodologies for software engineering.

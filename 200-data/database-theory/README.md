@@ -14,11 +14,11 @@ CS » Data » Database Theory
       - Dimensional
       - Network
       - Relational
-      - Entity–relationship
-        - Enhanced Entity–relationship
+      - Entity-relationship
+        - Enhanced Entity-relationship
       - Graph
       - Object-oriented
-      - Entity–attribute–value
+      - Entity-attribute-value
     * Other models
       - Associative
       - Correlational

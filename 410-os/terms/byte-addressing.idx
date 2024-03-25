@@ -1,0 +1,58 @@
+# Byte addressing
+
+## 32-bit
+
+0x1c ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻
+     b₃₂ 0x20    b₃₃ 0x21   b₃₄ 0x22    b₃₅ 0x23
+0x1c ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻
+     b₂₈ 0x1c    b₂₉ 0x1d   b₃₀ 0x1e    b₃₁ 0x1f
+0x18 ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻
+     b₂₄ 0x18    b₂₅ 0x19   b₂₆ 0x1a    b₂₇ 0x1b
+0x14 ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻
+     b₂₀ 0x14    b₂₁ 0x15   b₂₂ 0x16    b₂₃ 0x17
+0x10 ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻
+     b₁₆ 0x10    b₁₇ 0x11   b₁₈ 0x12    b₁₉ 0x13
+0x0c ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻
+     b₁₂ 0xc     b₁₃ 0xd    b₁₄ 0xe     b₁₅ 0xf
+0x08 ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻
+     byte 8      byte 9     b₁₀ 0xa     b₁₁ 0xb
+0x04 ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻
+     byte 4      byte 5     byte 6      byte 7
+0x00 ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻ ◼◻◻◻◼◻◻◻
+     byte 0      byte 1     byte 2      byte 3
+
+
+0x00        0x01        0x02        0x03       0x04
+│           │           │           │           │
+│▣▣▣▣▣▣▣▣▣▣▣ ▣▣▣▣▣▣▣▣▣▣▣ ▣▣▣▣▣▣▣▣▣▣▣ ▣▣▣▣▣▣▣▣▣▣▣│
+│byte 0      byte 1      byte 2      byte 0     │
+
+
+## 64-bit
+
+▣ = 8 bytes = 64 bits
+
+0x48 ▣□□□▣□□□
+0x40 ▣□□□▣□□□
+0x38 ▣□□□▣□□□
+0x30 ▣□□□▣□□□
+0x28 ▣□□□▣□□□
+0x20 ▣□□□▣□□□
+0x18 ▣□□□▣□□□
+0x10 ▣□□□▣□□□
+0x08 ▣□□□▣□□□
+0x00 ▣□□□▣□□□
+
+
+### Memory lines (read head)
+
+In 64-bit long mode, memory is accessed 64 bits (8 bytes) at a time. This may be pictured as if the read head is 8 bytes wide. It has its favorite stops that are multiples of its width (so 0x0, 0x8, 0x10, 0x18, 0x20, 0x28, …, 0x90, 0x98); in other words, a memory address must end in either 0 or 8. This is called **aligned memory access** and besides being the most optimal, sometimes it is the only type of access allowed. That is, some CPU architectures only allow aligned memory access, while others allow the "memory head" to stop anywhere.
+
+Accessing 8 bytes at memory address 0x18. The gaps are aligned stops.
+```
+                             head
+                           ┌──┴───┐
+▣□□□▣□□□ ▣□□□▣□□□ ▣□□□▣□□□ ▣□□□▣□□□ ▣□□□▣□□□ ▣□□□▣□□□ ▣□□□▣□□□ ▣□□□▣□□□
+│        │        │        │        │        │        │        │
+0        8        10       18       20       28       30       38
+```

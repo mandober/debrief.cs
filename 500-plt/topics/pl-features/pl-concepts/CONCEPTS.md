@@ -1,0 +1,43 @@
+# PLT :: PROGRAMMING LANGUAGE CONCEPTS
+
+- assignment
+  - assignment operation
+  - assignment sign
+  - compound assignment
+  - compound assignment operations
+- binding time
+  - dynamic binding time
+  - static binding time
+- constant
+  - named constant
+- environment
+  - symbol table, key-value pairs
+  - referencing environments
+- expression
+- statement
+- name
+  - identifier
+  - name binding
+  - name scoping rules
+- special words
+  - reserved words
+  - keywords
+  - contextual keywords
+- scope
+- lifetime
+- variable
+  - categories of variables
+  - address (of a variable), l-value
+  - alias (of a variable)
+  - assignment (to a variable)
+  - name (of a variable)
+  - lifetime (of a variable)
+  - r-value (value of a variable)
+  - scope (of variable)
+  - type (of variable)
+  - typing (a variable)
+  - value (of variable), r-value
+  - variable attributes
+  - l-value (address of a variable)
+  - variable binding
+  - variable initialization

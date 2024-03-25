@@ -2,7 +2,6 @@
 
 https://en.wikipedia.org/wiki/Category:Computer_data
 
-
 - [Data (computing)](https://en.wikipedia.org/wiki/Data_(computing))
 - [Data](https://en.wikipedia.org/wiki/Data)
 - [Attribute (computing)](https://en.wikipedia.org/wiki/Attribute_(computing))

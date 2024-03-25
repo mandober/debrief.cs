@@ -1,11 +1,34 @@
-# CS :: PLT :: Programming Language Theory
+# CS :: Programming Language Theory
 
-This, PLT section, is about programming language theory. Firstly, it is about the properties and features common to almost all programming languages. However, the primary focus is on the languages based on lambda calculus and functional programming paradigm. The underlying theory of these languages is by far the most developed formalism across the PL board, certainly, in no small part because these languages are as close to the actual mathematical formalisms as programming laguages get. FPLs seems to form a sturdy base, a default approach for a PL implementation, the features of other programming paradigms can be modelled and build upon.
+This section, `500-plt`, is about *Programming Language Theory* (PLT), aka Theory of Programming Languages.
 
+(this should be fun to organize meaningfully)
 
+- Programming Language Theory (PLT)
+- Programming Language features
+- Programming Language paradigms
+- Programming Language design and implementation
+- Compiler Theory
+- names
+  - identifiers
+  - name binding
+  - values
+  - variables
+- control flow
+  - loops
+  - continuations
+- data types
+  - data
+  - types of data
+  - primitive
+  - compound
+- functions
+  - subroutines
+  - closures
+  - recursion
+- type system
+  - variance
+  - polymorphism
 - syntax
 - semantics
-- pragmatics
-- properties
-- type-related features
-- advanced type-related features
+- regexp

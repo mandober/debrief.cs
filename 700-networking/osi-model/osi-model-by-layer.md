@@ -2,25 +2,42 @@
 
 OSI model by layers (top to bottom):
 - 7. Application layer
-  - NNTP
-  - SIP
-  - SSI
+  - DHCP
   - DNS
   - FTP
   - Gopher
   - HTTP
+  - NETCONF
   - NFS
+  - NNTP
   - NTP
+  - SIP
   - SMPP
   - SMTP
   - SNMP
+  - SSI
   - Telnet
-  - DHCP
-  - NETCONF
-  - (more)
 - 6. Presentation layer
 - 5. Session layer
 - 4. Transport layer
 - 3. Network layer
 - 2. Data link layer
 - 1. Physical layer
+  - Bluetooth
+  - DSL
+  - I.430
+  - I.431
+  - IEEE 1394
+  - IEEE 802.11
+  - IEEE 802.15
+  - IEEE 802.16
+  - IEEE 802.3
+  - ITU-T G.hn PHY
+  - ITU-T V-Series
+  - OTN
+  - PDH
+  - PON
+  - RS-232
+  - RS-449
+  - SONET/SDH
+  - USB

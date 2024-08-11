@@ -1,4 +1,4 @@
-# HIERARCHY of Computer Science
+# Computer Science :: HIERARCHY
 
 
 ## CS Foundations
@@ -335,7 +335,7 @@
     - Searching
       - BST
 
-## math (Theory of Computation)
+## Theory of Computation (in math)
   - Formal Language
   - Complexity Theory
   - Automata Theory
@@ -396,7 +396,7 @@
     - Recursive set
     - Recursively enumerable set
     - Decision problem
-    - Church–Turing thesis
+    - Church-Turing thesis
     - Computable function
     - Primitive recursive function
   * Compiler theory
@@ -436,8 +436,8 @@
   * Grammar
     - Grammars and context
     - Context-free grammar
-      - Backus–Naur Form (BNF)
-      - Extended Backus–Naur Form (EBNF)
+      - Backus-Naur Form (BNF)
+      - Extended Backus-Naur Form (EBNF)
     - Context-sensitive grammar
   * Semantics
     - Operational
@@ -623,7 +623,7 @@
       - DSL
       - markup
 
-## Type System
+## Type System (in math)
   - Data
   - Data Types
   - Type Systems
@@ -636,6 +636,14 @@
   - type inference
   - type annotation
   - type ascripion
+
+## Graphics
+
+## Operating systems
+
+## Networking
+
+## Security
 
 ## Artificial Intelligence
   * Artificial Intelligence

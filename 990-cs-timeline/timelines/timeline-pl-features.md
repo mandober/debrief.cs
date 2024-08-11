@@ -1,0 +1,29 @@
+# Timeline :: Data structures
+
+- 1962 *AVL tree*. First self-balancing BST. Georgy Adelson-Velsky and Evgenii Landis. "An algorithm for the organization of information".
+- 1967 *Patterns* as a first-class data type in SNOBOL4.
+- 1969 *Case analysis*. Rod Burstall. "Proving Properties of Programs by Structural Induction".
+- 1969 *Structural recursion*. Rod Burstall. "Proving Properties of Programs by Structural Induction".
+- 1969 *Pattern matching* described by Rod Burstall.
+- 1969 *Hindley-Milner type system*, Roger Hindley. ML lifted pattern matching to a new level with static typing and type inference.
+- 1970 First impl of *pattern matching* in Fred McBride's LISP variant.
+- 1987 *Inductively defined functions* in FPLs. Rod Burstall.
+- 1971 concept of *lazy evaluation*. Vuillemin.
+- 1974 *lazy evaluation*. Wadsworth.
+- 1973 ML by Robin Milner, metalanguage (ML) for LCF. *Strong static typing*, *type inference*, brings pattern matching to a new level. CHI relates ML-style pattern matching to case analysis and proof by exhaustion.
+- 1977 *Function definition by pattern matching*, Burstall and Darlington.
+- 1978 Polymorphic type system for ML, Robin Milner
+- 1980 Curry-Howard isomorphism (CHI). Howard
+- 1980 *Algebraic Data Types* introduced for the first time in HOPE.
+- 1982 Polymorphic type system. Damas and Robin Milner
+- 1985 Encoding of *strictly-positive ADTs* in polymorphic LC. Corrado Boehm and Alessandro Berarducci.
+- 1987 *uniquenss types* in Clean. Brus et al.
+- 1988 control delimiters of *delimited continuations*. Matthias Felleisen
+- 1990 *monads* in FP. Philip Wadler (initially by E.Moggi)
+- 1991 PST, λ-cube. Henk Barendregt. "Introduction to generalized type systems"
+- 1996 Proof-carrying code. George Necula and Peter Lee.
+- 1973 Martin-Löf type theory, Martin-Löf, (1982)
+- 1972 System F, Fω Girard
+- 1974 Polymorphic lambda-calculus Reynolds
+- 1978 Polymorphic type inference. Milner
+- 1982 Polymorphic type inference. Damas and Milner

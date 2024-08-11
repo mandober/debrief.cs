@@ -1,5 +1,7 @@
 # Recursion
 
+https://en.wikipedia.org/wiki/Category:Recursion
+
 ## Types of recursion
 
 - acyclic recursion
@@ -123,13 +125,6 @@ https://en.wikipedia.org/wiki/Primitive_recursion
 
 ## Defs
 
-Short-circuiting the base case, also known as **arm's-length recursion**, consists of checking the base case before making a recursive call, i.e. checking if the next call will be the base case, instead of calling and then checking for the base case. Short-circuiting is particularly done for efficiency reasons, to avoid the overhead of a function call that immediately returns.
-
----
-
-**Bar recursion** is a generalized form of recursion developed by Clifford Spector in his 1962 paper. It is related to bar induction in the same fashion that primitive recursion is related to ordinary induction, or transfinite recursion is related to transfinite induction. The principles of bar induction and bar recursion are the intuitionistic equivalents of the axiom of dependent choices.
-
----
 
 
 *Gödel's functional interpretation*, also known as the *Gödel's Dialectica interpretation* (from the name of the journal it was published in) is a translation from intuitionistic arithmetic into the $Σ^0_2$ fragment of intuitionistic arithmetic in finite types.

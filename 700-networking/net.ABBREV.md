@@ -55,6 +55,7 @@ https://en.wikipedia.org/wiki/List_of_computing_and_IT_abbreviations
 - [IAN](#ian)
 - [ICMP](#icmp)
 - [IETF](#ietf)
+- [IEEE](#ieee)
 - [IGMP](#igmp)
 - [ISP](#isp)
 - [IS-IS](#is-is)
@@ -120,6 +121,7 @@ https://en.wikipedia.org/wiki/List_of_computing_and_IT_abbreviations
 - [PVC](#pvc)
 - [QoS](#qos)
 - [RARP](#rarp)
+- [REST](#rest)
 - [RIP](#rip)
 - [RTP](#rtp)
 - [rt-VBR](#rt-vbr)
@@ -311,6 +313,9 @@ Internet Control Message Protocol
 
 ## IETF
 Internet Engineering Task Force
+
+## IEEE
+Institute of Electrical and Electronics Engineers
 
 ## IGMP
 Internet Group Management Protocol

@@ -1,5 +1,38 @@
 # Computer Science :: HIERARCHY
 
+## CS General
+
+- CS in general, general topics
+- History of CS
+- Beginning of CS in math
+- Philosophy of CS (?)
+- classification of sciences, and the issue of CS placement
+- is CS a part of mathematics still or a standalone science like physics?
+
+- fields of CS
+  + CS areas, disciplines, fields
+  + classification factors
+  - Theoretical CS
+  - Information Theory (IT)
+  - Theory of Computation (ToC) - shared with math
+
+- Hardware and software
+  - hardware is king ↓
+  - mind and body
+  - making hardware, creating software
+  - fluctation of cost of hw vs sw
+  - 1970's - the decade when cost of sw overtook hw
+  - the fall of IBM
+  - hw: engineering side, manufacturing
+  - sw: practical, theoretical side
+  - importance and irreplacability of data
+  - software is king ↑
+
+- Fundamentals of CS
+  - fundamental principles
+  - 3 fundamental principles: abstraction, abstraction and abstraction
+
+
 
 ## CS Foundations
   - Computer Science (CS)

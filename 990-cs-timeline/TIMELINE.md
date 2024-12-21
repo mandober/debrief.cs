@@ -2,17 +2,14 @@
 
 - 1878 λo E.Stamm discovers (published in 1911) functional completeness of NAND
 - 1879 λo Frege's "Begriffsschrift", initiation of predicate logic
-
 - 1880 λo Charles Peirce discovers (unpublished) functional completeness of NAND
 - 1884 λo Frege's 'Foundations of Arithmetic', math in formal logic
 - 1889 λo Peano axioms, G.Peano, "Principles of Arithmetic Presented by a New Method"
-
 - 1900 μα Hilbert's program: 23 math problems
 - 1900 μα International Congress of Philosophy in Paris
 - 1903 λo Russell's paradox
 - 1908 λo First axiomatic set theory by E.Zermelo
 - 1909 λo Truth tables found in Eugen Müller's writings 
-
 - 1910 γϵ WORLD WAR ONE started
 - 1910 λo Modal logic by Lewis
 - 1910 λo Whitehead and Russell's 'Principia Matematica'
@@ -20,12 +17,10 @@
 - 1913 λo Sheffer stroke logical operator (NAND), Henry.Sheffer
 - 1914 γϵ WORLD WAR ONE ended
 - 1917 λo 3-valued propositional logic by Jan Łukasiewicz
-
 - 1920 λo Löwenheim-Skolem theorem
 - 1921 λo Truth tables employed by E.Post
 - 1928 λo Entscheidungsproblem formulated by David.Hilbert
 - 1929 λo Gödel's Completeness theorem
-
 - 1931 λo Gödel's Incompleteness theorem
 - 1932 λo Church at Princeton: original λ-calculus as a logic system
 - 1933 λo Embedding of IL into into classical logic by Gödel (precursor to CPS)
@@ -38,11 +33,10 @@
 - 1936 λo λ-calculus revision, A.Church
 - 1936 μα 'An Unsolvable Problem of Elementary Number Theory', A.Church, Apr 1936
 - 1937 (Jan) Alan Turing "On Computable Numbers, with an Application to the Entscheidungsproblem".
-- 1937 λo Church (in Apr using LC) and Turing (in Jan using TM) prove solving the Entscheidungsproblem impossible: computation is generally undecidable
+- 1937 λo Church (Apr w/LC), Turing (Jan w/TM) re Entscheidungsproblem
 - 1937 λo Church-Turing thesis: Every effectively calculable function is a computable function.
 - 1937 μα 'On Computable Numbers, with an Application to the Entscheidungsproblem', A.Turing, Jan 1973
 - 1939 γϵ WORLD WAR TWO started
-
 
 - 1940's  Dawn of the computer age, decade of first computers
 - 1940    λ-calculus revison, A.Church
@@ -52,27 +46,22 @@
 - 1941    λ-calculus revison, A.Church
 - 1942    Plankalkül[^2], first high-level PL, concept by K.Zuse, from 1942 to 1945
 - 1942    Category Theory introduced by S. MacLane and S. Eilenberg
-- 1943    ENIAC computer, Neumann, Mauchly, Eckert, Goldstine; after Turing
-- 1943    ENIAC, J.vonNeumann, Mauchly, Eckert, Goldstine; after a concept by A.Turing
+- 1943    ENIAC, VonNeumann, Mauchly, Eckert, Goldstine; concept by A.Turing
 - 1945    WORLD WAR TWO ended
-- 1945    Merge-sort invented by John.VonNeumann
-- 1946    ENIAC Short Code, Clippinger, Neumann; after Turing
+- 1945    Merge-sort invented by VonNeumann
+- 1946    ENIAC Short Code, Clippinger, VonNeumann; concept by A.Turing
 - 1946    Graphing system notation by Neumann and Goldstine
-- 1946    ENIAC Short Code, Clippinger, J.vonNeumann; after a concept by A.Turing
-- 1946    Graphing system notation by J.vonNeumann and Goldstine
 - 1947    ARC Assembly by Kathleen Booth
 - 1947    Transistor invented by Shockley, Bardeen and Brattain
 - 1948    CPC Coding scheme by Howard H. Aiken
 - 1948    Curry notation system by Haskell B. Curry
 - 1948    Mathematical Theory of Communication by C. Shannon
 - 1948    Plankalkül concept by Konrad Zuse
-
-
-
 - 1949 EDSAC Initial Orders by David Wheeler
 - 1949 Short Code by Mauchly and Schmitt
 - 1949 πλ EDSAC Initial Orders by David.Wheeler
 - 1949 πλ Short Code by Mauchly and Schmitt
+
 - 1950 λo Karnaugh mapping technique (Boolean logic) by Karnaugh
 - 1950 χω Modem, MIT and Bell Labs
 - 1951 First high-level πλ with the compiler by Corado Böhm, Germany
@@ -96,8 +85,6 @@
 - 1955 oσ GM OS (General Motors Operating System) made for IBM701
 - 1955 oσ Tape Director OS made for UNIVAC1103 at MIT
 - 1955 πλ Flow-matic (precursor to Cobol)
-- 1955 πλ Flow-matic, led to Cobol
-- 1955 χω Magnetic core memory
 - 1955 χω Magnetic core memory
 - 1956 oσ GM-NAA I/O (General Motors and North American Aviation) for IBM704, based on GM OS
 - 1956 χω Transatlantic telephone cable, UK and US
@@ -106,26 +93,19 @@
 - 1957 Fortran, the first compiler, J. Backus
 - 1957 oσ Atlas Supervisor (Atlas computer project start) at Manchester University
 - 1957 oσ BESYS at Bell Labs for IBM704, later IBM7090 and IBM7094
-- 1957 πλ 'Fortran', the first compiler by Backus
+- 1957 πλ Fortran, the first compiler by Backus
 - 1957 πλ COMIT, one of the first PLs with approximation of pattern matching
 - 1957 πλ Comtran (precursor to Cobol)
-- 1957 πλ Comtran, precursor to Cobol
 - 1957 πλ early Pattern matching in COMIT
-- 1957 πλ FORTRAN, Watson Scientific
-- 1957 πλ Fortran, with the first compiler, J. Backus
-- 1958 Algol 58
+- 1957 πλ Fortran, with the first compiler, J. Backus, Watson Scientific
 - 1958 Algol 58 (Algorithmic Language), 1st appearance of Algol
-- 1958 Lisp by John McCarthy
 - 1958 Lisp by John McCarthy
 - 1958 oσ UMES (University of Michigan Executive System) for IBM704, IBM709, IBM7090
 - 1958 Simply Typed λ-calculus by Curry and Feys
-- 1958 Simply Typed λ-calculus, Curry and Feys
 - 1958 λo Simply Typed λ-calculus, Curry and Feys
-- 1958 λo Simply Typed λ-calculus, H.Curry and Feys
-- 1958 πλ 'Algol 58' (Algorithmic Language), first appearance
-- 1958 πλ 'Lisp' by John.McCarthy
+- 1958 πλ Algol 58 (Algorithmic Language), first appearance
+- 1958 πλ Lisp by John McCarthy
 - 1958 πλ Algol 58
-- 1958 πλ Lisp, by John McCarthy
 - 1959 Cobol (the Short Range Committee)
 - 1959 MOSFET invented, Atalla & Kahng, Bell Labs
 - 1959 oσ SOS (SHARE Operating System), based on GM-NAA I/O

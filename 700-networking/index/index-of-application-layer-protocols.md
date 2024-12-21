@@ -1,0 +1,210 @@
+# Application layer protocols
+
+- 0-9
+  - 3G-324M
+  - 9P (protocol)
+- A
+  - Acct URI scheme
+  - Ad Hoc Configuration Protocol
+  - Advanced Message Queuing Protocol (AMQP)
+  - Aggregate Level Simulation Protocol (ALSM)
+  - Application Layer Transport Security (ALTS)
+  - Apache Thrift
+  - Architecture for Control Networks (ACN)
+  - ARPA Host Name Server Protocol (obsolete)
+  - Apache Avro
+- B
+  - Bitcoin
+  - BitTorrent
+  - BitTorrent tracker
+  - BlueTrace
+  - Boot Service Discovery Protocol
+- C
+  - CalDAV
+  - CAMEL Application Part
+  - CCSO Nameserver
+  - CECPQ1
+  - CECPQ2
+  - Character Generator Protocol
+  - Colored Coins
+  - Comparison of MQTT implementations
+  - Constrained Application Protocol
+  - CryptoNote
+- D
+  - D-Bus
+  - Daytime Protocol
+  - Decentralized autonomous organization
+  - Decentralized Privacy-Preserving Proximity Tracing
+  - Delegated credential
+  - DHCP snooping
+  - DHCPv6
+  - Diameter (protocol)
+  - DICOM
+  - Direct Save Protocol
+  - Directory Access Protocol
+  - Discard Protocol
+  - Distributed Codec Engine
+  - Distributed Data Management Architecture
+  - Distributed Data Protocol
+  - Distributed Interactive Simulation
+  - Distributed Social Networking Protocol
+  - DNS over HTTPS
+  - DNS over TLS
+  - Domain Name System
+  - DRDA
+  - Dynamic Host Configuration Protocol
+- E
+  - Echo Protocol
+  - EGL (API)
+  - Etch (protocol)
+  - Exchange ActiveSync
+- F
+  - File Transfer Protocol
+  - Financial Information eXchange
+  - Firo (cryptocurrency)
+  - Freenet
+  - FTAM
+- G
+  - Gemini (protocol)
+  - Gnutella
+  - GPSoverIP
+- H
+  - HTTP/2
+  - HTTP/3
+  - HTTP message body
+  - Hyper Text Coffee Pot Control Protocol
+  - Hypertext Transfer Protocol
+- I
+  - I2P
+  - IBM Advanced Program-to-Program Communication
+  - INAP
+  - Inter-Asterisk eXchange
+  - Internationalized Resource Identifier
+  - Internet Communications Engine
+  - Internet Content Adaptation Protocol
+  - Internet Open Trading Protocol
+  - Internet Relay Chat
+  - InterPlanetary File System
+  - ISCSI
+  - ISDN User Part
+- J
+  - Java Naming and Directory Interface
+  - JREAP
+- L
+  - Lightweight Directory Access Protocol
+  - Link-Local Multicast Name Resolution
+- M
+  - Mail Transfer Protocol
+  - Matrix (protocol)
+  - Media Resource Control Protocol
+  - Message Oriented Text Interchange Systems
+  - Message Send Protocol
+  - Message Session Relay Protocol
+  - Microsoft Media Server
+  - MIMIC Simulator
+  - MMS Architecture
+  - Mobile Application Part
+  - Monero
+  - Mosh (software)
+  - MQTT
+  - Multicast DNS
+- N
+  - Nano (cryptocurrency)
+  - National Transportation Communications for Intelligent Transportation System (Protocol)
+  - Net-SNMP
+  - NETCONF
+  - Network File System
+  - Network News Transfer Protocol
+  - Network Time Protocol
+  - Newcastle Connection
+  - NewHope
+  - NISO Circulation Interchange Protocol
+- O
+  - OFTP
+  - Open Control Architecture
+  - Open Settlement Protocol
+  - Open Shortest Path First
+- P
+  - Peercoin
+  - People Finder Interchange Format
+  - Precision Time Protocol
+- Q
+  - QOTD
+- R
+  - RADIUS
+  - RadSec
+  - Real Data Transport
+  - Real Time Streaming Protocol
+  - Real-time Transport Protocol
+  - Realtek Remote Control Protocol
+  - Remote Desktop Protocol
+  - RFB protocol
+  - Rtelnet
+  - RTP Control Protocol
+  - RVU protocol
+- S
+  - SDEP
+  - Secure Reliable Transport
+  - Secure Shell
+  - Server Message Block
+  - Server Routing Protocol
+  - Service discovery
+  - Service layer
+  - Session Initiation Protocol
+  - Shared resource
+  - ShimmerCat
+  - Signal Protocol
+  - SIMPLE (instant messaging protocol)
+  - SIMPLE (military communications protocol)
+  - Simple Network Management Protocol
+  - Simple Sensor Interface protocol
+  - Simple Service Discovery Protocol
+  - Simple Symmetric Transport Protocol
+  - Simple Update Protocol
+  - SIP extensions for the IP Multimedia Subsystem
+  - Skinny Client Control Protocol
+  - SOAP
+  - Software Upgrade Protocol
+  - SPDY
+  - Simple Protocol for Independent Computing Environments
+  - Streaming Text Oriented Messaging Protocol
+  - STUN
+  - Sun RPC
+- T
+  - Tabular Data Stream
+  - TCN Protocol
+  - Telnet
+  - Time Protocol
+  - Tor (network)
+  - Traversal Using Relays around NAT
+  - TZSP
+- U
+  - UDP-based Data Transfer Protocol
+  - Uniform Resource Identifier
+  - V
+  - Variant object
+  - Video Acceleration API
+- W
+  - Weave (protocol)
+  - Web Application Messaging Protocol
+  - Web Application Open Platform Interface
+  - WebNFS
+  - WebSocket
+  - WebTorrent
+  - Wire protocol
+  - Wireless Communications Transfer Protocol
+- X
+  - X Image Extension
+  - X video extension
+  - X Window System protocols and architecture
+  - X-Video Bitstream Acceleration
+  - X-Video Motion Compensation
+  - X.400
+  - X.500
+  - XML
+  - XMPP
+- Z
+  - Z39.50
+  - Zcash
+  - Zerocoin protocol
+  - ZeroNet

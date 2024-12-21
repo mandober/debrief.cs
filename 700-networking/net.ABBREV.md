@@ -1,4 +1,4 @@
-# Networking ∷ Abbreviations
+# Networking :: Abbreviations
 
 * List of information technology initialisms - Wikipedia
 https://en.wikipedia.org/wiki/List_of_information_technology_initialisms
@@ -7,655 +7,814 @@ https://en.wikipedia.org/wiki/List_of_information_technology_initialisms
 https://en.wikipedia.org/wiki/List_of_computing_and_IT_abbreviations
 
 
+## TOC
+
 <!-- TOC -->
 
-- [AAL5](#aal5)
-- [ACN](#acn)
-- [ACK](#ack)
-- [AES](#aes)
-- [ADSL](#adsl)
-- [ALG](#alg)
-- [ALPN](#alpn)
-- [ALSM](#alsm)
-- [ALTS](#alts)
-- [AMQP](#amqp)
-- [APIPA](#apipa)
-- [ARP](#arp)
-- [ATM](#atm)
-- [BAN](#ban)
-- [BGP](#bgp)
-- [BCU](#bcu)
-- [BRAS](#bras)
-- [BSN](#bsn)
-- [BSU](#bsu)
-- [CAN](#can)
-- [CATV](#catv)
-- [CHAP](#chap)
-- [CIDR](#cidr)
-- [CGI](#cgi)
-- [CBR](#cbr)
-- [DoS](#dos)
-- [DBA](#dba)
-- [DMZ](#dmz)
-- [DSCP](#dscp)
-- [DAG](#dag)
-- [DCS](#dcs)
-- [DHCP](#dhcp)
-- [DNS](#dns)
-- [DSL](#dsl)
-- [EAP](#eap)
-- [FTP](#ftp)
-- [FTTP](#fttp)
-- [GPON](#gpon)
-- [HAN](#han)
-- [HTTP](#http)
-- [HTTPS](#https)
-- [HTTPU](#httpu)
-- [HOLB](#holb)
-- [IAN](#ian)
-- [ICMP](#icmp)
-- [IETF](#ietf)
-- [IEEE](#ieee)
-- [IGMP](#igmp)
-- [ISP](#isp)
-- [IS-IS](#is-is)
-- [IP](#ip)
-- [IMAP](#imap)
-- [IPCP](#ipcp)
-- [IPv4](#ipv4)
-- [IPv6](#ipv6)
-- [IPv6CP](#ipv6cp)
-- [ISDN](#isdn)
-- [IPTV](#iptv)
-- [LAN](#lan)
-- [LMHOSTS](#lmhosts)
-- [LAPB](#lapb)
-- [LCP](#lcp)
-- [LDAP](#ldap)
-- [LLC](#llc)
-- [MAC](#mac)
-- [MAN](#man)
-- [MBAN](#mban)
-- [MTU](#mtu)
-- [MWN](#mwn)
-- [NAN](#nan)
-- [NAT](#nat)
-- [NAPT](#napt)
-- [NBF](#nbf)
-- [NBT](#nbt)
-- [NBX](#nbx)
-- [NCP](#ncp)
-- [NIC](#nic)
-- [NETCONF](#netconf)
-- [NetBIOS](#netbios)
-- [NetBEUI](#netbeui)
-- [NFC](#nfc)
-- [NFS](#nfs)
-- [NNTP](#nntp)
-- [NMS](#nms)
-- [NoC](#noc)
-- [NTP](#ntp)
-- [nrt-VBR](#nrt-vbr)
-- [OLT](#olt)
-- [ONT](#ont)
-- [ONU](#onu)
-- [OMCI](#omci)
-- [OSI](#osi)
-- [OSINLCP](#osinlcp)
-- [PAN](#pan)
-- [PAT](#pat)
-- [PAP](#pap)
-- [POS](#pos)
-- [POP](#pop)
-- [POP3](#pop3)
-- [P2P](#p2p)
-- [P2MP](#p2mp)
-- [PPP](#ppp)
-- [PPPoE](#pppoe)
-- [PPPoA](#pppoa)
-- [PPTP](#pptp)
-- [PHY](#phy)
-- [PON](#pon)
-- [PSTN](#pstn)
-- [PQ](#pq)
-- [PVC](#pvc)
-- [QoS](#qos)
-- [RARP](#rarp)
-- [REST](#rest)
-- [RIP](#rip)
-- [RTP](#rtp)
-- [rt-VBR](#rt-vbr)
-- [SAN](#san)
-- [SLIP](#slip)
-- [SOHO](#soho)
-- [STB](#stb)
-- [SCGI](#scgi)
-- [SDH](#sdh)
-- [SIP](#sip)
-- [SLIP](#slip-1)
-- [SMB](#smb)
-- [SMPP](#smpp)
-- [SMTP](#smtp)
-- [SNMP](#snmp)
-- [SONET](#sonet)
-- [SSH](#ssh)
-- [SSIP](#ssip)
-- [SSID](#ssid)
-- [SSDP](#ssdp)
-- [STB](#stb-1)
-- [SYN](#syn)
-- [TFTP](#tftp)
-- [TKIP](#tkip)
-- [TLS](#tls)
-- [ToS](#tos)
-- [TCP](#tcp)
-- [TDMA](#tdma)
-- [VPN](#vpn)
-- [VoIP](#voip)
-- [VLSM](#vlsm)
-- [UDP](#udp)
-- [UPnP](#upnp)
-- [URI](#uri)
-- [URL](#url)
-- [UTP](#utp)
-- [W3C](#w3c)
-- [WAN](#wan)
-- [WBAN](#wban)
-- [WebGUI](#webgui)
-- [WINS](#wins)
-- [WLAN](#wlan)
-- [WLC](#wlc)
-- [WPAN](#wpan)
-- [WEP](#wep)
-- [WPA](#wpa)
-- [WPS](#wps)
-- [WFQ](#wfq)
+- [TOC](#toc)
+- [A](#a)
+  - [AAL5](#aal5)
+  - [ACN](#acn)
+  - [ACK](#ack)
+  - [AES](#aes)
+  - [ADSL](#adsl)
+  - [ALG](#alg)
+  - [ALPN](#alpn)
+  - [ALSM](#alsm)
+  - [ALTS](#alts)
+  - [AMQP](#amqp)
+  - [APIPA](#apipa)
+  - [ARP](#arp)
+  - [ARPANET](#arpanet)
+  - [ASN](#asn)
+  - [ATM](#atm)
+- [B](#b)
+  - [BAN](#ban)
+  - [BGP](#bgp)
+  - [BCU](#bcu)
+  - [BRAS](#bras)
+  - [BSN](#bsn)
+  - [BSU](#bsu)
+- [C](#c)
+  - [CAN](#can)
+  - [CATV](#catv)
+  - [CBR](#cbr)
+  - [CDMA/CD](#cdmacd)
+  - [CDMA/CD](#cdmacd-1)
+  - [CDMA/CA](#cdmaca)
+  - [CGI](#cgi)
+  - [CHAP](#chap)
+  - [CIDR](#cidr)
+  - [CPE](#cpe)
+- [D](#d)
+  - [DTE](#dte)
+  - [DCE](#dce)
+  - [DoS](#dos)
+  - [DBA](#dba)
+  - [DMZ](#dmz)
+  - [DSCP](#dscp)
+  - [DAG](#dag)
+  - [DCS](#dcs)
+  - [DHCP](#dhcp)
+  - [DNS](#dns)
+  - [DSL](#dsl)
+- [E](#e)
+  - [EAP](#eap)
+- [F](#f)
+  - [FTP](#ftp)
+  - [FTTP](#fttp)
+  - [FQDN](#fqdn)
+- [G](#g)
+  - [GPON](#gpon)
+- [H](#h)
+  - [HAN](#han)
+  - [HTTP](#http)
+  - [HTTPS](#https)
+  - [HTTPU](#httpu)
+  - [HOLB](#holb)
+- [I](#i)
+  - [IANA](#iana)
+  - [IAN](#ian)
+  - [ICANN](#icann)
+  - [ICMP](#icmp)
+  - [IETF](#ietf)
+  - [IEEE](#ieee)
+  - [IGMP](#igmp)
+  - [ISP](#isp)
+  - [IS-IS](#is-is)
+  - [IP](#ip)
+  - [IMAP](#imap)
+  - [IPCP](#ipcp)
+  - [IPv4](#ipv4)
+  - [IPv6](#ipv6)
+  - [IPv6CP](#ipv6cp)
+  - [ISDN](#isdn)
+  - [IPTV](#iptv)
+  - [IPX/SPX](#ipxspx)
+- [L](#l)
+  - [LAN](#lan)
+  - [LMHOSTS](#lmhosts)
+  - [LAPB](#lapb)
+  - [LCP](#lcp)
+  - [LDAP](#ldap)
+  - [LLC](#llc)
+  - [LIR](#lir)
+- [M](#m)
+  - [MAC](#mac)
+  - [MAN](#man)
+  - [MBAN](#mban)
+  - [MTU](#mtu)
+  - [MWN](#mwn)
+- [N](#n)
+  - [NAN](#nan)
+  - [NAT](#nat)
+  - [NAPT](#napt)
+  - [NBF](#nbf)
+  - [NBT](#nbt)
+  - [NBX](#nbx)
+  - [NCP](#ncp)
+  - [NIC](#nic)
+  - [NIR](#nir)
+  - [NETCONF](#netconf)
+  - [NetBIOS](#netbios)
+  - [NetBEUI](#netbeui)
+  - [NFC](#nfc)
+  - [NFS](#nfs)
+  - [NNTP](#nntp)
+  - [NMS](#nms)
+  - [NoC](#noc)
+  - [NTP](#ntp)
+  - [nrt-VBR](#nrt-vbr)
+- [O](#o)
+  - [OLT](#olt)
+  - [ONT](#ont)
+  - [ONU](#onu)
+  - [OMCI](#omci)
+  - [ORCHID](#orchid)
+  - [OSI](#osi)
+  - [OSINLCP](#osinlcp)
+- [P](#p)
+  - [P2P](#p2p)
+  - [P2MP](#p2mp)
+  - [PAN](#pan)
+  - [PAT](#pat)
+  - [PAP](#pap)
+  - [PDU](#pdu)
+  - [PHY](#phy)
+  - [POS](#pos)
+  - [POP](#pop)
+  - [POP3](#pop3)
+  - [PON](#pon)
+  - [PPP](#ppp)
+  - [PPPoE](#pppoe)
+  - [PPPoA](#pppoa)
+  - [PPTP](#pptp)
+  - [PoE](#poe)
+  - [PQ](#pq)
+  - [PSTN](#pstn)
+  - [PVC](#pvc)
+- [Q](#q)
+  - [QoS](#qos)
+- [R](#r)
+  - [RARP](#rarp)
+  - [REST](#rest)
+  - [RIR](#rir)
+  - [RIP](#rip)
+  - [RTP](#rtp)
+  - [rt-VBR](#rt-vbr)
+  - [RS-232](#rs-232)
+- [S](#s)
+  - [SAN](#san)
+  - [SLIP](#slip)
+  - [SOHO](#soho)
+  - [STB](#stb)
+  - [SCGI](#scgi)
+  - [SDH](#sdh)
+  - [SIP](#sip)
+  - [SLIP](#slip-1)
+  - [SMB](#smb)
+  - [SMPP](#smpp)
+  - [SMTP](#smtp)
+  - [SNMP](#snmp)
+  - [SONET](#sonet)
+  - [SSH](#ssh)
+  - [SSIP](#ssip)
+  - [SSID](#ssid)
+  - [SSDP](#ssdp)
+  - [STB](#stb-1)
+  - [SYN](#syn)
+- [T](#t)
+  - [TFTP](#tftp)
+  - [TKIP](#tkip)
+  - [TLS](#tls)
+  - [ToS](#tos)
+  - [TCP](#tcp)
+  - [TDMA](#tdma)
+  - [TOS](#tos)
+- [V](#v)
+  - [VPN](#vpn)
+  - [VoIP](#voip)
+  - [VLSM](#vlsm)
+- [U](#u)
+  - [UDP](#udp)
+  - [UPnP](#upnp)
+  - [URI](#uri)
+  - [URL](#url)
+  - [UTP](#utp)
+- [W](#w)
+  - [W3C](#w3c)
+  - [WAN](#wan)
+  - [WBAN](#wban)
+  - [WebGUI](#webgui)
+  - [WINS](#wins)
+  - [WLAN](#wlan)
+  - [WLC](#wlc)
+  - [WPAN](#wpan)
+  - [WEP](#wep)
+  - [WPA](#wpa)
+  - [WPS](#wps)
+  - [WFQ](#wfq)
 
 <!-- /TOC -->
 
+## A
 
-## AAL5
+### AAL5
 ATM Adaptation Layer 5
 
-## ACN
+### ACN
 Architecture for Control Networks
 
-## ACK
-(TCP) Acknowledgement
+### ACK
+Acknowledgement (flag in TCP header)
 
-## AES
+### AES
 Advanced Encryption Standard
 
-## ADSL
+### ADSL
 Asymmetric digital subscriber line
 
-## ALG
+### ALG
 Application Level Gateway
 
-## ALPN
-Application-Layer Protocol Negotiation
+### ALPN
+Application Layer Protocol Negotiation
 
-## ALSM
+### ALSM
 Aggregate Level Simulation Protocol
 
-## ALTS
+### ALTS
 Application Layer Transport Security
 
-## AMQP
+### AMQP
 Advanced Message Queuing Protocol
 
-## APIPA
+### APIPA
 Automatic Private IP Addressing
 
-## ARP
+### ARP
 Address Resolution Protocol
 
-## ATM
+### ARPANET
+Advanced Research Projects Agency Network
+
+### ASN
+Autonomous System Number
+
+### ATM
 Asynchronous Transfer Mode
 
-## BAN
+
+## B
+
+### BAN
 Body area network
 
-## BGP
+### BGP
 Border Gateway Protocol
 
-## BCU
+### BCU
 Single Body Central Unit
 
-## BRAS
+### BRAS
 Broadband Remote Access Server
 
-## BSN
+### BSN
 Body Sensor Network
 
-## BSU
+### BSU
 Body Sensor Unit
 
-## CAN
+
+## C
+
+### CAN
 1. Controller Area Network
 2. Campus Area Network
 
-## CATV
+### CATV
 Community Antenna Television
 
-## CHAP
-Challenge-Handshake Authentication Protocol
-
-## CIDR
-Classless Inter-Domain Routing
-
-## CGI
-Common Gateway Interface
-
-## CBR
+### CBR
 Constant Bit Rate
 
-## DoS
+### CDMA/CD
+Carrier-Sense Multiple Access
+
+### CDMA/CD
+Carrier-Sense Multiple Access with Collision Detection
+
+### CDMA/CA
+Carrier-Sense Multiple Access with Collision Avoidance
+
+### CGI
+Common Gateway Interface
+
+### CHAP
+Challenge-Handshake Authentication Protocol
+
+### CIDR
+Classless Inter-Domain Routing
+
+### CPE
+Customer-premises equipment
+
+
+## D
+
+### DTE
+Data terminal equipment (e.g. a PC)
+
+### DCE
+Data Circuit-Terminating (or Communication) Equipment (e.g. a modem)
+
+### DoS
 Denial of Service
 
-## DBA
+### DBA
 Dynamic Bandwidth Assignment
 
-## DMZ
+### DMZ
 Demilitarized Zone
 
-## DSCP
-Differentiated Services Code Point
+### DSCP
+Differentiated Services Code Point (a field in IP header, successor of TOS)
 
-## DAG
+### DAG
 Directed Acyclic Graph
 
-## DCS
+### DCS
 Distributed Control System
 
-## DHCP
+### DHCP
 Dynamic Host Configuration Protocol (currently DHCPv4 and DHCPv6)
 
-## DNS
+### DNS
 Domain Name System
 
-## DSL
+### DSL
 Digital subscriber line
 
-## EAP
+
+## E
+
+### EAP
 Extensible Authentication Protocol
 
-## FTP
+
+## F
+
+### FTP
 File Transfer Protocol
 
-## FTTP
+### FTTP
 Fibre-to-the-premises
 
-## GPON
+### FQDN
+Fully-qualified domain name
+
+## G
+
+### GPON
 Gigabit-capable passive optical network
 
-## HAN
+
+## H
+
+### HAN
 Home Area Network
 
-## HTTP
+### HTTP
 Hypertext Transfer Protocol
 
-## HTTPS
-Hypertext Transfer Protocol Secure
+### HTTPS
+Secure Hypertext Transfer Protocol
 
-## HTTPU
+### HTTPU
 Universal Plug and Play over HTTP
 
-## HOLB
-head of line blocking
+### HOLB
+Head of Line Blocking
 
-## IAN
+
+## I
+
+### IANA
+Internet Assigned Numbers Authority
+
+### IAN
 1. Internet Area Network
 2. Industrial Area Network
 
-## ICMP
+### ICANN
+Internet Corporation for Assigned Numbers and Names
+
+### ICMP
 Internet Control Message Protocol
 
-## IETF
+### IETF
 Internet Engineering Task Force
 
-## IEEE
+### IEEE
 Institute of Electrical and Electronics Engineers
 
-## IGMP
+### IGMP
 Internet Group Management Protocol
 
-## ISP
+### ISP
 Internet Service Provider
 
-## IS-IS
+### IS-IS
 Intermediate System to Intermediate System (routing protocol)
 
-## IP
+### IP
 Internet Protocol (current versions IPv4 and IPv6)
 
-## IMAP
+### IMAP
 Internet Message Access Protocol
 
-## IPCP
+### IPCP
 Internet Protocol Control Protocol
 
-## IPv4
+### IPv4
 Internet Protocol version 4
 
-## IPv6
+### IPv6
 Internet Protocol version 6
 
-## IPv6CP
+### IPv6CP
 Internet Protocol Version 6 Control Protocol
 
-## ISDN
+### ISDN
 Integrated Services Digital Network
 
-## IPTV
+### IPTV
 Internet Protocol Television
 
-## LAN
+### IPX/SPX
+Internetwork Packet Exchange/Sequenced Packet Exchange (discontinued Novell NetWare OSs)
+
+## L
+
+### LAN
 Local Area Network
 
-## LMHOSTS
-LAN Manager Hosts (Windows)
+### LMHOSTS
+LAN Manager Hosts ("hosts" file in Windows)
 
-## LAPB
+### LAPB
 Link Access Procedure, Balanced
 
-## LCP
+### LCP
 Link Control Protocol
 
-## LDAP
+### LDAP
 Lightweight Directory Access Protocol
 
-## LLC
+### LLC
 Logical link control
 
-## MAC
+### LIR
+Local Internet registry
+
+## M
+
+### MAC
 Media Access Control
 
-## MAN
+### MAN
 Metropolitan Area Network
 
-## MBAN
+### MBAN
 Medical Body Area Network
 
-## MTU
+### MTU
 Maximum Transmission Unit
 
-## MWN
+### MWN
 Municipal Wireless Network
 
-## NAN
+
+## N
+
+### NAN
 Near-me Area Network
 
-## NAT
+### NAT
 Network Address Translation
 
-## NAPT
+### NAPT
 Network Address and Port Translation
 
-## NBF
+### NBF
 NetBIOS Frames
 
-## NBT
+### NBT
 NetBIOS over TCP/IP
 
-## NBX
+### NBX
 NetBIOS over IPX/SPX
 
-## NCP
+### NCP
 Network Control Protocol
 
-## NIC
+### NIC
 Network Interface Card
 
-## NETCONF
+### NIR
+National Internet Registry
+
+### NETCONF
 Network Configuration Protocol
 
-## NetBIOS
+### NetBIOS
 Network Basic Input/Output System (non-routable OSI Session Layer 5 Protocol)
 
-## NetBEUI
+### NetBEUI
 NetBIOS Extended User Interface
 
-## NFC
+### NFC
 Near-field Communication
 
-## NFS
+### NFS
 Network File System
 
-## NNTP
+### NNTP
 Network News Transfer Protocol
 
-## NMS
+### NMS
 Network Management System
 
-## NoC
+### NoC
 Network-on-Chip
 
-## NTP
+### NTP
 Network Time Protocol
 
-## nrt-VBR
+### nrt-VBR
 non-real-time Variable Bit Rate
 
-## OLT
+
+## O
+
+### OLT
 Optical line termination
 
-## ONT
+### ONT
 Optical network terminal
 
-## ONU
+### ONU
 Optical network unit
 
-## OMCI
+### OMCI
 Optical-network management and control interface
 
-## OSI
+### ORCHID
+Overlay Routable Cryptographic Hash Identifiers
+
+### OSI
 Open System Interconnect (joint ISO and ITU standard)
 
-## OSINLCP
+### OSINLCP
 OSI Network Layer Control Protocol
 
-## PAN
-Personal area network
 
-## PAT
-Port address translation
+## P
 
-## PAP
-Password Authentication Protocol
-
-## POS
-Packet over SONET/SDH
-
-## POP
-Point of presence
-
-## POP3
-Post Office Protocol, version 3
-
-## P2P
+### P2P
 1. Point-to-point (communications connection)
 2. Peer-to-peer (file sharing)
 
-## P2MP
+### P2MP
 Point-to-multipoint (communication). Also PTMP or PMP.
 
-## PPP
-Point-to-Point Protocol (data link layer, i.e. OSI layer 2)
+### PAN
+Personal area network
 
-## PPPoE
-Point-to-Point Protocol over Ethernet
+### PAT
+Port address translation
 
-## PPPoA
-Point-to-Point Protocol over ATM
+### PAP
+Password Authentication Protocol
 
-## PPTP
-Point-to-Point Tunneling Protocol
+### PDU
+Payload data unit
 
-## PHY
-Physical layer
+### PHY
+Physical layer (layer 1 in the OSI model)
 
-## PON
+### POS
+Packet over SONET/SDH
+
+### POP
+Point of presence
+
+### POP3
+Post Office Protocol, version 3
+
+### PON
 Passive optical network
 
-## PSTN
-Public Switched Telephone Network
+### PPP
+Point-to-Point Protocol (protocol at L2 of the OSI model)
 
-## PQ
+### PPPoE
+Point-to-Point Protocol over Ethernet
+
+### PPPoA
+Point-to-Point Protocol over ATM
+
+### PPTP
+Point-to-Point Tunneling Protocol
+
+### PoE
+Power over Ethernet
+
+### PQ
 Priority Queue
 
-## PVC
+### PSTN
+Public Switched Telephone Network
+
+### PVC
 Permanent Virtual Channel
 
-## QoS
+## Q
+
+### QoS
 Quality of service
 
-## RARP
+## R
+
+### RARP
 Reverse ARP
 
-## REST
+### REST
 Representational state transfer
 
-## RIP
+### RIR
+Regional Internet Registry
+
+### RIP
 Routing Information Protocol
 
-## RTP
+### RTP
 Real-time Transport Protocol
 
-## rt-VBR
+### rt-VBR
 real-time Variable Bit Rate
 
-## SAN
+### RS-232
+Recommended Standard 232
+
+
+## S
+
+### SAN
 Storage Area Network
 
-## SLIP
+### SLIP
 Serial Line Internet Protocol (obsolete)
 
-## SOHO
+### SOHO
 Small Office and Home Office
 
-## STB
+### STB
 Set Top Box
 
-## SCGI
+### SCGI
 Secure Common Gateway Interface
 
-## SDH
+### SDH
 Synchronous digital hierarchy
 
-## SIP
+### SIP
 Session Initiation Protocol
 
-## SLIP
+### SLIP
 Serial Line Internet Protocol
 
-## SMB
+### SMB
 Server Message Block
 
-## SMPP
+### SMPP
 Short Message Peer-to-Peer
 
-## SMTP
+### SMTP
 Simple Mail Transfer Protocol
 
-## SNMP
+### SNMP
 Simple Network Management Protocol
 
-## SONET
+### SONET
 Synchronous optical networking
 
-## SSH
+### SSH
 Secure Shell
 
-## SSIP
+### SSIP
 Simple Sensor Interface protocol
 
-## SSID
+### SSID
 Service Set Identifier
 
-## SSDP
+### SSDP
 Simple Service Discovery Protocol
 
-## STB
-set-top box
+### STB
+Set-Top Box
 
-## SYN
-(TCP) Synchronization
+### SYN
+Synchronization (field in TCP header)
 
-## TFTP
+
+## T
+
+### TFTP
 Trivial File Transfer Protocol
 
-## TKIP
+### TKIP
 Temporal Key Integrity Protocol
 
-## TLS
+### TLS
 Transport Layer Security
 
-## ToS
+### ToS
 Type of Service
 
-## TCP
+### TCP
 Transmission Control Protocol
 
-## TDMA
-Time-division multiple access (protocol)
+### TDMA
+Time-Division Multiple Access (protocol)
 
-## VPN
+### TOS
+Type of services (deprecated field of IP header)
+
+
+## V
+
+### VPN
 Virtual Private Network
 
-## VoIP
+### VoIP
 Voice over IP
 
-## VLSM
+### VLSM
 Variable-length subnet masking
 
-## UDP
+
+## U
+
+### UDP
 User Datagram Protocol
 
-## UPnP
+### UPnP
 Universal Plug and Play
 
-## URI
+### URI
 Uniform Resource Identifier
 
-## URL
+### URL
 Uniform Resource Locator
 
-## UTP
-Unshielded twisted pair (LAN cable)
+### UTP
+Unshielded Twisted Pair (a type of LAN cable)
 
-## W3C
-World Wide Web Consortium
+## W
 
-## WAN
+### W3C
+World Wide Web Consortium, W³C
+
+### WAN
 Wide Area Network
 
-## WBAN
+### WBAN
 Wireless body area network
 
-## WebGUI
-Web-based GUI configurator (web interface used to configure a network device via the HTTP service)
+### WebGUI
+Web-based GUI (interface to configure a network device via HTTP)
 
-## WINS
+### WINS
 Windows Internet Name Service
 
-## WLAN
-Wireless local area network
+### WLAN
+Wireless Local Area Network
 
-## WLC
+### WLC
 Wireless LAN Controller
 
-## WPAN
+### WPAN
 Wireless Personal Area Network
 
-## WEP
-Wired Equivalent Privacy (deprecated, crackable)
+### WEP
+Wired Equivalent Privacy (deprecated, easily crackable)
 
-## WPA
-Wi-Fi Protected Access (WPA crackable, WPA2 less so)
+### WPA
+Wi-Fi Protected Access (WPA1 crackable, WPA2 less so, WPA3 latest atempt)
 
-## WPS
+### WPS
 Wi-Fi Protected Setup
 
-## WFQ
+### WFQ
 Weighted Fair Queue

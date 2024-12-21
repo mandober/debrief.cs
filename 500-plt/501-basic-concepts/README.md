@@ -1,0 +1,29 @@
+# CS :: PLT :: Programming Language Concepts :: Basic Concepts
+
+- syntax
+- tokens
+- reserved words
+- keywords
+- expressions
+  - value
+  - first-class values
+  - constant expression
+- variable
+- constant
+- literal
+- identifiers (names)
+- name binding
+  - lexical binding
+    - lexically scoped name binding
+  - dynamic binding
+- scope
+- objects (in memory)
+- lifetime (of objects)
+- blocks
+- statement
+- declaration
+- definition
+- initialization
+- instantiation
+- loops
+- routine

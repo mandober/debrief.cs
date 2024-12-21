@@ -9,7 +9,9 @@
 - [HKT](#hkt)
 - [HOF](#hof)
 - [HRT](#hrt)
+- [RISC](#risc)
 - [UDF](#udf)
+- [VLIW](#vliw)
 
 <!-- /TOC -->
 
@@ -34,5 +36,11 @@ Higher-order function
 ## HRT
 Higher-ranked type
 
+## RISC
+Reduced Instruction Set Computing
+
 ## UDF
 User-defined function
+
+## VLIW
+Very Long Instruction Word

@@ -1,6 +1,7 @@
-# IP Suite
+# Internet protocol suite
 
-https://www.wikiwand.com/en/Internet_protocol_suite
+https://en.wikipedia.org/wiki/Internet_protocol_suite
+
 
 * Internet protocol suite
   * Application layer
@@ -98,6 +99,3 @@ Representational State Transfer is a software architectural style that defines a
 
 ## Web service frameworks
 https://www.wikiwand.com/en/List_of_web_service_frameworks
-
-
-

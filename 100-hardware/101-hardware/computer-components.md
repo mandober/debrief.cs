@@ -1,16 +1,29 @@
 # Computer Hardware
 
-1. Overview
-2. Processor
-3. Memory
-4. System bus
+Components to assemble a computer
+- Processor
+- Processor cooler
+- Memory sticks
+- Motherboard
+- Storage (SDD, HDD, M.2, etc.)
+- Power supply unit (PSU)
+- Keyboard
+- optional components
+  - case, additional fans
+  - mouse
+  - discrete GPU (dGPU), besides iGPU
 
+
+Memory hierarchy
+- Static RAM (SRAM): CPU cache levels (L1, L2, L3, etc.)
+- DRAM for main memory (primary memory)
+- (secondary memory)
 
 Computer Hardware elements
-- Core computer parts
-  - CPU
-  - Buses
-  - Primary memory
+- CPU
+- Buses
+- Primary memory
+
 * CPU
   * CPU elements
     - Processing unit
@@ -47,15 +60,25 @@ Computer Hardware elements
     - Secondary memory
     - Tertiary memory
   - Memory hierarchy
-    - CPU Registers
-    - CPU Cache
-    - Main memory
+    - CPU Registers, SRAM
+    - CPU Cache, SRAM
+      - Level 1 cache
+      - Level 2 cache
+      - Level 3 cache
+    - Main memory, DRAM
     - Secondary storage
+      - flash memory
+        - M.2 drives
+        - SDD
+      - magnetic
+        - HDD
+
   - Memory production
     - SRAM (registers, cache)
     - DRAM (main memory)
     - Flash (SSD)
     - Magnetic (HDD)
+
   - Main memory properties
     - Memory address space
     - Memory address space layers

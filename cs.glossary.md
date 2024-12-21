@@ -34,6 +34,8 @@ https://en.wikipedia.org/wiki/Category:Glossaries_of_computers
 - [CHI](#chi)
 - [Compiler](#compiler)
 - [Composition over inheritance](#composition-over-inheritance)
+- [Critical section](#critical-section)
+- [Concurrency](#concurrency)
 - [Data structure](#data-structure)
 - [Data type](#data-type)
 - [Data typing](#data-typing)
@@ -56,6 +58,7 @@ https://en.wikipedia.org/wiki/Category:Glossaries_of_computers
 - [Interface](#interface)
 - [Intermediate Representation](#intermediate-representation)
 - [Invariant](#invariant)
+- [In-order Execution](#in-order-execution)
 - [Jump](#jump)
 - [Link-time optimization](#link-time-optimization)
 - [Literal](#literal)
@@ -67,8 +70,12 @@ https://en.wikipedia.org/wiki/Category:Glossaries_of_computers
 - [Offline algorithm](#offline-algorithm)
 - [Online algorithm](#online-algorithm)
 - [Opaque data type](#opaque-data-type)
+- [OpenCL](#opencl)
+- [OpenMP](#openmp)
 - [Operational semantics](#operational-semantics)
+- [Out-of-order execution](#out-of-order-execution)
 - [Overloading](#overloading)
+- [Parallelism](#parallelism)
 - [Polymorphism](#polymorphism)
 - [Parametric polymorphism](#parametric-polymorphism)
 - [Polymorphic parameter/argument](#polymorphic-parameterargument)
@@ -90,6 +97,7 @@ https://en.wikipedia.org/wiki/Category:Glossaries_of_computers
 - [Static Single Assignment](#static-single-assignment)
 - [Strictness Analysis](#strictness-analysis)
 - [Tail-Recursion Elimination](#tail-recursion-elimination)
+- [Thread-safe](#thread-safe)
 - [Token](#token)
 - [Transmute](#transmute)
 - [Type annotation](#type-annotation)
@@ -207,6 +215,12 @@ Compiler is primarily used to translate source code from a high-level programmin
 ## Composition over inheritance
 or composite reuse principle in object-oriented programming (OOP) is the principle that classes should achieve polymorphic behavior and code reuse by their composition (by containing instances of other classes that implement the desired functionality) rather than inheritance from a base or parent class.
 
+## Critical section
+A critical section is a range of lines in the source code that must be executed without interruption, i.e. atomically (interruption usually tranfers the control to another process that can potentially mutate the critical values).
+
+## Concurrency
+A property of a system in which a set of tasks in a system can remain active and make progress at the same time. To utilize concurrent execution when running a program, a programmer must identify the concurrency in their program, expose it within the source code, and then exploit it using a notation that supports concurrency.
+
 ## Data structure
 Data structure is a particular way of organizing and storing data in a computer so that it can be accessed and modified efficiently. More precisely, a data structure is a collection of data values, the relationships among them and the functions or operations that can be applied to the data.
 
@@ -284,10 +298,11 @@ It is the output LLVM IR Code, which can be shown in text form by passing `--emi
 ## Invariant
 An invariant is a condition that can be relied upon to be true during execution of a program, or during some portion of it. It is a logical assertion that is held to always be true during a certain phase of execution. For example, a loop invariant is a condition that is true at the beginning and end of every execution of a loop.
 
+## In-order Execution
+A model of execution where the instructions are executed in order of submission, with each command running to completion before the next one begins.
+
 ## Jump
 A jump transfers the control of execution to another location in the program, normally used to handle some particular situtation. A *local jump* is a jump within the same functoon. A *relative jump* is an unconditional jump to a label.
-
-
 
 ## Link-time optimization
 Link-time optimization (LTO)
@@ -324,11 +339,23 @@ An online algorithm can process its input piece-by-piece, serially, in order the
 ## Opaque data type
 An opaque data type is a data type whose concrete data structure is not defined in an interface. This enforces information hiding, since its values can only be manipulated by calling subroutines. Typical examples of opaque data types include handles for miscellaneous resources.
 
+## OpenCL
+Open Computing Language is an open standard for general purpose parallel programming across CPUs, GPUs and other processors, giving software developers portable and efficient access to the power of these heterogeneous processing platforms. OpenCL consists of an API for coordinating parallel computation across heterogeneous processors; and a cross-platform programming language with a well-specified computation environment.
+
+## OpenMP
+OpenMP is an API that supports multi-platform shared-memory multiprocessing programming in C, C++, and Fortran, on many platforms, instruction-set architectures and operating systems.
+
 ## Operational semantics
 The meaning of a PL construct is specified by the computation it induces when it is executed on a machine. In particular, how the effect of a computation is produced is of the biggest interest.
 
+## Out-of-order execution
+A model of execution in which instructions may begin and complete execution in an order that is different then the order in which they appear in the source code, as long as the result is consistent with specification (or common sense).
+
 ## Overloading
 Overloading (sometimes called restricted polymorphism) is a form of ad hoc polymorphism where the definition of functions, and especially operators, has the same name but different implementations. The canonical example is addition, usually denoted with symbol `+`, which represents the same idea, but each type that supports this operator has a different (internal) implementation. For example, the addition of unsigned integers exploits their 2's compliment representation, while addition of floats uses an entirely different technic.
+
+## Parallelism
+True parallelism includes a number of physical CPUs that simultaneously execute different pieces of a single process (program). To expolit parallelism, a program must be parallelizable - it should be possible to split it into pieces (that can execute simultaneously) in a way that makes sense. Importantly, in a way so that the results can be collected and stiching together sensibly. One of the crucial properties is for the piece to be independable of each other. Things that can be mapped and reduced are ideal. On the other hand, concurrency is the execution of different processes in a little by little manner, where each process is granted a time slot on the CPU to execute. The scheduler part of the kernel relies on a complex algorithm to select the next process it will let for a few spins on the CPU. The fast pace in which this happens gives the illusion of simultaneous execution.
 
 ## Polymorphism
 Polymorphism is the provision of a single interface to entities of different types.
@@ -408,6 +435,9 @@ Strictness analysis is used to prove whether a function is strict in one or more
 
 ## Tail-Recursion Elimination
 A function is said to be tail-recursive if the last operation performed in its body is a bare recursive call (without further touching the result of the call). Such a recursive function does not need the previous stack frames since it leaves nothing there (don't touch the results of the call part - you may only return it, nothing else). This opens up the possibility to optimize away such functions by converting them into a iterative version, e.g. a (bounded) loop computation.
+
+## Thread-safe
+A process/thread is considered thread-safe if its internal state remains consistent when interrupted by other processes/threads (that could potentially mutate its state); it is re-entrant-safe: pausing and resuming it, as well as restarting it, or starting a few of its instances, does not confuse it, it is resillient to fuckuppery.
 
 ## Token
 Tokens are primitive productions in the grammar defined by regular, non-recursive, language.

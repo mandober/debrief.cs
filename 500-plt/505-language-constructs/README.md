@@ -1,0 +1,147 @@
+# CS :: PLT :: Programming Language Constructs
+
+- functions
+  - function (in programming languages)
+  - first-class function
+  - higher-order function, functionals
+  - defunctionalization
+  - anonymous function, function literal, function block, function expression
+  - named function
+    - function statement
+    - function expression
+  - nested function
+  - lambdas
+    - lambda lifting (converts the closures into function objects)
+    - lambda dropping
+  - implementation of functions
+  - function parameters
+  - function return value
+  - local variables, free variables
+  - pure functions
+  - functions as arguments
+    - passing functions as arguments (fargs, funargs)
+    - the funargs problem
+    - upstream funargs problem
+    - callback functions
+  - functions as return values
+    - downstream funargs problem
+  - caller and callee conventions
+    - calling conventions
+  - recursive functions
+  - closures
+  - generators
+  - continuations
+  - preemptive functions
+  - non-preemptive functions
+  - diverging functions
+
+
+
+- name binding
+  - name bindings
+  - binding strategies
+  - call-by-value
+  - call-by-reference
+  - call-by-name
+  - call-by-need
+  - call-by-sharing
+  - call-by-copy-restore
+  - call-by-push-value
+  - call by macro expansion
+  - call-by-future
+
+- evaluation order
+  - strict evaluation
+    - applicative order
+    - strict binding strategies
+      - call-by-value
+      - call-by-reference
+      - call-by-sharing
+      - call-by-copy-restore
+  - non-strict evaluation
+    - normal order
+    - non-strict binding strategies
+      - call-by-name
+      - call-by-need
+      - call-by-macro expansion
+      - call-by-future
+      - optimistic evaluation
+  - lazy evaluation
+  - partial evaluation
+
+- flow control
+  - conditional jumps
+  - unconditional jumps
+  - restricted jumps, local jumps, goto
+  - non-local jumps
+  - bounded loops
+    - for
+    - for…in
+  - unbounded loops
+    - while
+    - do…while
+
+- coroutines
+- iterators
+- generators
+- continuations, cps
+  - tail calls
+  - tco
+- type system
+- polymorphism
+  - Rank-N types
+  - universally quantified data types
+  - existential data types
+- abstract data types (ADTs)
+- opaque data types
+- algebraic data types
+  - ADTs
+  - pattern matching
+  - generalized algebraic data types
+- threading
+- reflection
+- reification
+- regexp
+- concurrency
+- macros
+- OO patterns
+  - classes
+  - objects (instances of classes)
+  - members
+    - class members
+    - object members
+    - static members
+    - fields
+    - properties
+    - methods
+    - accessors
+    - setters and getters
+    - constructor
+    - destructor
+  - subtype polymorphism
+  - inheritence
+  - interfaces, traits, mixins
+  - prototypical inheritence
+  - prototype chain
+- RAII pattern
+  - acquiring resources
+  - disposing resources
+  - bracket pattern, with pattern
+- signals
+  - signalling errors
+  - panic
+  - traps
+  - exceptions
+- state
+  - managing state
+  - global variables
+  - random values
+  - time and date
+  - State monad
+- memory management
+  - reference counting
+  - STM
+  - manual memory management
+  - automatic memory management
+    - garbage collection
+      - mark and sweep

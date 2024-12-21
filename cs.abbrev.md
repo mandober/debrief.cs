@@ -139,6 +139,9 @@ Multiple Instructions Multiple Data
 ## NUMA
 Non-uniform memory access
 
+## OpenCL
+Open Computing Language
+
 ## PL
 Programming language
 

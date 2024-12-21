@@ -1,0 +1,27 @@
+# CS :: Data Science :: TERMS
+
+- Data
+- Computer Data
+- Data architecture
+- Data at rest
+- Data consistency
+- Data conversion
+- Data efficiency
+- Data format management
+- Data in use
+- Data loss
+- Data preservation
+- Data processing
+- Data recovery
+- Data recovery hardware
+- Data Reference Model
+- Data set
+- Continuous data protectionContinuous_data_protection)
+- Change data capture
+- Dynamic data
+- Electronic data interchangeElectronic_data_interchange)
+- Machine-generated data
+- Persistent data
+- Source data
+- Streaming data
+- Synthetic data

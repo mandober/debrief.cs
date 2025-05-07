@@ -1,5 +1,9 @@
 # CS :: Programming Language Theory
 
+https://en.wikipedia.org/wiki/Outline_of_computer_programming
+
+https://en.wikipedia.org/wiki/Glossary_of_computer_science
+
 This section (500-plt) is about *Programming Language Theory* (Theory of Programming Languages).
 
 Primarily, it tries to index and describe common and then the less common language features, particularly focusing on the well-understood and generally accepted solutions and implementations of various challenges pertaining to programming language design.

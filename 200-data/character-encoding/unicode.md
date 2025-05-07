@@ -24,15 +24,6 @@ Byte Order Mark (BOM)        | FEFF
 
 
 
-## Code Point Type
-Any of the 7 fundamental classes of code points in the standard: 
-- Graphic
-- Format
-- Control
-- Private-Use
-- Surrogate
-- Non-character
-- Reserved
 
 ## Unicode Code Point
 1. Any value in the Unicode codespace, from 0 to U+10FFFF; not all code points are assigned to encoded characters.

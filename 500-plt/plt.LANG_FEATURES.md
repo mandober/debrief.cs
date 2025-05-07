@@ -1,0 +1,196 @@
+# LANGUAGE FEATURES
+
+These mostly have to do with non-local jumps, execution environment, stack.
+
+- closures
+- iterators
+- generators
+- coroutines
+- futures
+- promises
+- continuations
+- exceptions
+- decorators
+- comprehensions
+- type classes
+- macros
+- fibers
+- threads
+
+
+
+## List
+- unicode support (for source files)
+- values
+  - NULL
+  - undefined
+- pointers
+  - references
+  - function pointers
+- control flow
+  - choice and selection
+    - conditions
+    - if/then/else, if/then/elseif/else
+    - switch, case statement
+    - select statement
+    - AND choice (&&)
+    - OR choice (||)
+    - short-circuiting semantics
+    - lazyness
+    - lazy semantics
+  - bounded loops
+    - for
+    - for/in
+    - for/of
+  - unbounded loops
+    - while, until
+    - do/while, do/until
+  - jumps
+  - unconditional jumps
+  - jump withing the current function, shot jump
+  - jump outside the current function (to another function), long jump
+  - GOTO
+  - labels
+  - break
+  - break to label
+  - continue
+- subroutines
+  - procedures (return no value)
+  - functions
+    - funarg problem
+      - upstream (up the stack)
+      - downstream (down the stack)
+    - first class functions
+      - functions can be passed to functions
+      - functions can be returned from functions
+      - functions as members of datas structures
+    - anonymous functions
+    - inlineable functions
+    - lambda functions
+    - closures
+  - recursion
+    - tail-call support
+    - tail-call optimization (TCO)
+  - continuations
+    - CPS
+    - call/cc
+    - saving and restoring the current context
+    - dual stack
+    - savecontext, bufsave
+    - prompt and reset
+  - coroutine
+  - iterators
+  - generators
+  - exceptions
+    - try/catch/finally
+  - decorators
+  - attributes
+- comprehensions
+  - list comprehension
+  - array comprehension
+- strings
+  - string slicing
+  - string types
+  - unicode support
+- OO features
+  - class
+  - object
+  - encapsulation
+  - inheritence
+    - prototype inheritence, prototype chain
+  - subtyping
+  - subtype polymorphism
+  - methods
+  - class fields
+  - properties
+  - setters and getters
+  - ctors
+  - dtors
+- interfaces
+  - type classes
+  - traits
+- polymorphism
+  - type variables
+  - generics (void*)
+  - templates (C++)
+  - concepts (C++)
+  - ad hoc polymorphism
+    - overloading
+    - custom operators
+    - type classes
+      - constructor type classes
+  - subtype polymorphism
+  - row polymorphism
+  - parametric polymorphism
+  - higher-order polymorphism
+  - higher-kinded types
+  - rank-n polymorphism
+- monads
+  - monad transformers
+- types
+  - special types: top, bottom, universal type
+  - type-level functions (type constructors)
+  - type-level operators
+- reflection
+  - runtime reflection
+  - type introspection
+  - type reification
+  - proxies
+  - metaprogramming
+  - type-level metaprogramming
+- RAII
+  - constructors
+  - destructors
+  - defer
+- deconstructing compound values
+  - pattern matching
+  - "spread" operator (...)
+  - "rest" or "gather" operator (...)
+- data structures
+  - recursive data structures
+  - enumerations (enums)
+  - array
+  - pair
+  - list
+  - set
+  - weak set
+  - map
+  - weak map
+  - object
+  - tuple
+  - struct
+  - union
+  - record
+  - dict
+  - tree
+  - graph
+- data types
+  - type constructors
+  - data constructors, value ctors
+  - access functions
+  - deconstructors
+  - product types
+    - structs
+    - records
+  - sum types
+    - unions
+    - tagged unions
+    - nullable types
+  - abstract data types
+  - opaque data types
+  - algebraic data types
+  - generalized algebraic data types
+- operators
+  - ternary conditional, `b ? t : e`
+  - null coercion operator, `??`
+  - redefining builtin operators
+  - defining custom operators
+- macros
+  - substitutions
+  - hygienic macros
+- concurrency
+  - threads
+- memory management
+  - manual memory management
+  - garbage collection
+- standard library

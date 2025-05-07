@@ -7,7 +7,9 @@
 - [Unwinding](#unwinding)
 
 
-*calling convention* is an implementation-level (low-level) scheme for how functions receive parameters from their caller and how they return a result. Differences in various implementations include where parameters, return values, return addresses and scope links are placed (register, stack, mix of both, etc.), and how the tasks of preparing for a function call and restoring the environment afterward are divided between the caller and the callee.
+*Calling convention* is an implementation-level (low-level) scheme for how functions receive parameters from their caller and how they return a result.
+
+Differences in various implementations include where parameters, return values, return addresses and scope links are placed (register, stack, mix of both, etc.), and how the tasks of preparing for a function call and restoring the environment afterward are divided between the caller and the callee.
 
 ## Call site processing
 
@@ -21,6 +23,7 @@ The prologue will commonly save the return address left in a register by the cal
 If frame pointers are being used, the prologue will typically set the new value of the frame pointer register from the stack pointer. Space on the stack for local variables can then be allocated by incrementally changing the stack pointer.
 
 ## Return processing
+
 When a subroutine is ready to return, it executes an epilogue that undoes the steps of the prologue. This will typically restore saved register values (such as the frame pointer value) from the stack frame, pop the entire stack frame off the stack by changing the stack pointer value, and finally branch to the instruction at the return address. Under many calling conventions the items popped off the stack by the epilogue include the original argument values, in which case there usually are no further stack manipulations that need to be done by the caller. With some calling conventions, however, it is the caller's responsibility to remove the arguments from the stack after the return.
 
 

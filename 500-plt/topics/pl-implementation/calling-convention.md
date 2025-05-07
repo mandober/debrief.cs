@@ -48,9 +48,9 @@ calc:
   push EBP            ; save old frame pointer
   mov EBP,ESP         ; get new frame pointer
   sub ESP,localsize   ; reserve stack space for locals
-  .
-  .                   ; perform calculations, leave result in EAX
-  .
+
+                      ; perform calculations, leave result in EAX
+
   mov ESP,EBP         ; free space for locals
   pop EBP             ; restore old frame pointer
   ret paramsize       ; free parameter space and return.
